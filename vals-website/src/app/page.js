@@ -1,13 +1,13 @@
-import Image from 'next/image'
+import Image from "next/image";
 
-import Example from './components/nav'
+import Example from "./components/nav";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-
-<Example />
-    </main>
-  )
+    <>
+      <Example />
+      <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    </>
+  );
 }
-7
+7;
