@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Example from "./components/nav";
+import Nav from "./components/nav";
 import Grid from "./components/grid";
 
 const Projects = [
@@ -69,7 +69,7 @@ const Projects = [
 export default function Home() {
   return (
     <>
-      <Example />
+      <Nav />
       
           
       <div className="gap-0 columns-3">
