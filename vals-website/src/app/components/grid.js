@@ -1,14 +1,12 @@
-export default function Grid() {
+export default function Grid(props) {
   return (
     <>
-        <div className="gap-0 columns-3">
           <div className="imgContainer">
-            <img className="gridimg" src="/assets/portfolio/1.jpg" />
+            <img className="gridimg" src={`/assets/portfolio/${props.img}`} />
             <div className="imgDescription">
-              <p className="gridText">hello child</p>
+              <p className="gridText">{props.name}</p>
             </div>
           </div>
-        </div>
     </>
   );
 }
