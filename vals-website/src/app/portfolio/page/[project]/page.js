@@ -66,7 +66,7 @@ const projects = [
 
 export default function PortfolioPage({params}) {
     const param = params.project;
-    const result = projects.find(({ name }) => name === param.toUpperCase() );
+    const result = projects.find(({ name }) => name === String(param.toUpperCase()) || String(param.toLowerCase()) );
     console.log(result)
     console.log(String(param))
   return (

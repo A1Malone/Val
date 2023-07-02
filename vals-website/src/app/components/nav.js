@@ -1,12 +1,14 @@
 'use client'
+import Link from 'next/link'
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'CAT 1', href: '#', current: true },
-  { name: 'CAT 2', href: '#', current: false },
-  { name: 'About', href: 'about', current: false },
+  { name: 'CAT 1', href: '/portfolio/page/WAVES', current: true },
+  { name: 'CAT 2', href: '/portfolio/page/lOADING SCREENS IN ACTION', current: false },
+  { name: 'About', href: '/about', current: false },
 ]
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -31,6 +33,7 @@ export default function Nav() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <Link href="/">
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-8 w-auto lg:hidden"
@@ -43,20 +46,19 @@ export default function Nav() {
                     alt="Your Company"
                   />
                 </div>
+
+              </Link>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
+                      <Link key={item.name} href={`${item.href}`}
+                      
+                      className={classNames(
+                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        'rounded-md px-3 py-2 text-sm font-medium'
+                      )}
+                      aria-current={item.current ? 'page' : undefined}
+                      >{item.name}</Link>
                     ))}
                   </div>
                 </div>
