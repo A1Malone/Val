@@ -1,7 +1,7 @@
 import Nav from "../../../components/nav";
 import Project from "../../../components/projectView";
 
-const Projects = [
+const projects = [
     {
       img: "1.jpg",
       name: "Val Bui",
@@ -62,14 +62,19 @@ const Projects = [
       img: "15.jpg",
       name: "IDK THE NAME BUT IT LOOKS COOL..... ITS A PREVIEW ANYWAYS... HAVE FUN! :)",
     },
-  ]
+  ];
 
 export default function PortfolioPage({params}) {
+    const param = params.project;
+    const result = projects.find(({ name }) => name === param.toUpperCase() );
+    console.log(result)
+    console.log(String(param))
   return (
     <>
-    {console.log(params.project)}
+
+
       <Nav />
-      <Project />
+      <Project name={result.name} img={result.img} />
     </>
   );
 }
