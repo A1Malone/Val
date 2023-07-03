@@ -5,7 +5,6 @@ import { projects } from "../../../constant";
 
 export default function PortfolioPage({params}) {
     const param = params.project;
-    //const result = projects.find(({ name }) => name === `${param.toUpperCase() || param.toLowerCase() || param}` );
     const check = () => {
       const verify = projects.find( e => e.link === param );
       console.log(`verify result:[${verify}]`);
