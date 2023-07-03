@@ -9,7 +9,7 @@ export default function Home() {
       <Nav />
       
           
-      <div className="gap-0 columns-3">
+      <div className="gap-0 columns-1 md:columns-3">
         
       {
         projects.map((nProject, i) => (
