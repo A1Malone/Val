@@ -4,8 +4,8 @@ import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'CAT 1', href: '/portfolio/page/WAVES', current: true },
-  { name: 'CAT 2', href: '/portfolio/page/lOADING SCREENS IN ACTION', current: false },
+  { name: 'link to a category', href: '/portfolio/page/loading-screens', current: true },
+  { name: 'link to a example project', href: '/portfolio/page/waves', current: false },
   { name: 'About', href: '/about', current: false },
 ]
 
