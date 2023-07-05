@@ -8,11 +8,7 @@ export default function Project(props) {
               {props.name}
             </p>
             <p class="text-xl ...">type of design</p>
-            <p class="text-xl pb-10 pt-10">
-              more description stuff Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Ut tortor velit, fermentum vitae vestibulum et,
-              tincidunt quis mi.
-            </p>
+            <p class="text-xl pb-10 pt-10">{props.description}</p>
           </div>
           <div class="grow px-2 ">
             <img className="w-full" src={`/assets/portfolio/${props.img}`} />
