@@ -36,12 +36,12 @@ export default function Nav() {
               <Link href="/">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="block h-10 lg:h-18 w-auto lg:hidden"
+                    className="block h-12 lg:h-18 lg:hidden"
                     src="/brand.png"
                     alt="Your Company"
                   />
                   <img
-                    className="hidden h-10 lg:h-18 w-auto lg:block"
+                    className="hidden h-14 lg:h-19 lg:block"
                     src="/brand.png"
                     alt="Your Company"
                   />
