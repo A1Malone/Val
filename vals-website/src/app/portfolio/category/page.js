@@ -7,8 +7,8 @@ export default function CategoryPage({params}) {
     <>
     <Nav />
     <div className="gap-0 columns-1 md:columns-3">
-    <Grid img={projects[2].img} name={projects[2].name} link={`/portfolio/page/${projects[2].link}`} />
-    <Grid img={projects[3].img} name={projects[3].name} link={`/portfolio/page/${projects[3].link}`} />
+    <Grid img={projects[2].mainImg} name={projects[2].name} link={`/portfolio/page/${projects[2].link}`} />
+    <Grid img={projects[3].mainImg} name={projects[3].name} link={`/portfolio/page/${projects[3].link}`} />
     </div>
     <p>*this is an example*</p>
     </>
