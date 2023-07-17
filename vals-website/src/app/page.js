@@ -9,11 +9,11 @@ export default function Home() {
       <Nav />
       
           
-      <div className="gap-0 columns-1 md:columns-3">
+      <div className="gap-0 columns-1 md:columns-2">
         
       {
         projects.map((nProject, i) => (
-          <Grid img={nProject.img} name={nProject.name} link={`/portfolio/page/${nProject.link}`} key={i} />
+          <Grid img={nProject.img || nProject.mainImg } name={nProject.name} link={`/portfolio/page/${nProject.link}`} key={i} />
         ))
       }
       </div>

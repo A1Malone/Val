@@ -24,7 +24,7 @@ export default function PortfolioPage({params}) {
 
 
       <Nav />
-    <Project name={check().name} img={check().img} description={check().description}/>
+    <Project name={check().name} imgList={check().imgList} description={check().description}/>
 
     </>
   );
