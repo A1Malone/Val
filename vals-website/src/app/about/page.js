@@ -13,7 +13,7 @@ export default function Home() {
           photographer. With over 6 years of designing, I've been able to work
           with clients around the world.
         </p>
-        <div className="flex flex-col py-8 gap-4 lg:flex-row">
+        <div className="flex flex-col p-8 gap-4 lg:flex-row">
         <div className="flex items-center justify-center">
           <div className="flex flex-col">
           <a
