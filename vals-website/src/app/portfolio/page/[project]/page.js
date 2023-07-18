@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import Nav from "../../../components/nav";
+import Footer from "../../../components/footer"
 import Project from "../../../components/projectView";
 import { projects } from "../../../constant";
 
@@ -25,7 +26,7 @@ export default function PortfolioPage({params}) {
 
       <Nav />
     <Project name={check().name} imgList={check().imgList} description={check().description}/>
-
+    <Footer />
     </>
   );
 }

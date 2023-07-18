@@ -1,4 +1,5 @@
 import Nav from "./components/nav";
+import Footer from "./components/footer"
 import Grid from "./components/grid";
 import { projects } from "./constant";
 
@@ -17,6 +18,7 @@ export default function Home() {
         ))
       }
       </div>
+    <Footer />
     </>
   );
 }
