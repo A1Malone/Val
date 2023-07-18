@@ -13,10 +13,9 @@ export default function Home() {
           photographer. With over 6 years of designing, I've been able to work
           with clients around the world.
         </p>
-        <div className="flex flex-column py-8 gap-4">
-          <div className="w-1/2">
-            
-        <div className="flex flex-col content-center">
+        <div className="flex flex-col py-8 gap-4 lg:flex-row">
+        <div className="flex items-center justify-center">
+          <div className="flex flex-col">
           <a
             href="mailto:valbuiofficial@gmail.com"
             className="font-semibold text-3xl leading-loose"
@@ -30,8 +29,8 @@ export default function Home() {
           >
             View My Resume{" "}
           </a>
-        </div>
           </div>
+        </div>
           <div className="w-full">
             <div className="isolate py-6">
               <form action="#" method="POST" className="mx-auto max-w-xl">
