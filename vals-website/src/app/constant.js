@@ -64,6 +64,7 @@ export const projects = [
       description: "This process book derives from a personal narrative love story called Live Laugh Die. With the use of text, scale, and imagery, this process book shows how a simple text can be transformed into various works."
     },
   ];
+  
 
   const notUsed = [
     
