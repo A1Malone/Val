@@ -19,14 +19,14 @@ export default function Home() {
           <div className="flex flex-col">
           <a
             href="mailto:valbuiofficial@gmail.com"
-            className="font-semibold text-3xl leading-loose"
+            className="font-semibold text-xl leading-loose lg:text-3xl"
           >
             valbuiofficial@gmail.com
           </a>
           <a
             href="/assets/Resume.pdf"
             target="_blank"
-            className="font-semibold text-3xl leading-loose"
+            className="font-semibold text-xl leading-loose lg:text-3xl"
           >
             View My Resume{" "}
           </a>
