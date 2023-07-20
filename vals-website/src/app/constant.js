@@ -95,6 +95,7 @@ export const projects = [
   },
 ];
 
+
 const notUsed = [
   {
     img: "1.jpg",
