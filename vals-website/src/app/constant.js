@@ -1,113 +1,142 @@
 export const projects = [
   {
-    mainImg: "2.png",
-    imgList: ["1.png",'2.png',"3.png","4.png"],
-    name: "Waves",
-    link: "waves",
-    description: "To many, music is a basic human need, on top of drinking water. The Waves brand captures the essence of a person who enjoys the outdoors and a listener of music."
-
+    mainImg: "1.jpg",
+    imgList: ["1.jpg", "2.jpg", "3.png"],
+    name: "STEDMAN GALLERY THESIS SHOW",
+    link: "stedman-gallery-thesis-show",
+    description:
+      "The Stedman Gallery thesis portrays works of the graduating seniors at Rutgers Camden. The show’s theme is pushing the boundaries and staying “Out of Line.” This work represents each senior’s project through shapes, as shapes are the foundation of all art. Art must push forward past the foundations and out of the box.",
   },
   {
     mainImg: "v1.mp4",
-    imgList: ["v1.mp4","1.png",'2.png',"3.png"],
+    imgList: ["v1.mp4", "1.png", "2.png", "3.png"],
     name: "PHILLY FACES",
     link: "philly-faces",
-    description: "Philly Faces is a rebrand of Philly Phaces. This non-profit organization helps children and families of those in need, particularly those with Congenital Facial Abnormalities."
-    },
-    {
-      mainImg: "2.png",
-      imgList: ["1.png",'2.png'],
-      name: "CULTURE CONNECT",
-      link: "culture-connect",
-      description: "Culture Connect is a brand with the purpose of helping immigrants adapt to America. Volunteers help immigrants with difficult tasks such as filing for taxes, filling out documents, and even learning how to understand English."
-    },
-    {
-      mainImg: "2.png",
-      imgList: ["1.png",'2.png'],
-      name: "THE FOLD",
-      link: "the-fold",
-      description: "The Fold is a display typeface made to be expressive due to its thick strokes. Its unique shape makes it noticeable and helps attract the viewer’s eye."
-    },
-    {
-      mainImg: "v1.mp4",
-      imgList: ["v1.mp4","1.png",'2.png','3.png'],
-      name: "lOADING SCREENS",
-      link: "loading-screens",
-      description: "The Art of Loading Screens is a website made to show the significance of loading screens of video games. With the use of vivid imagery and large scale text, the viewer is meant to learn how loading screens help both the user and the creators of the game."
-    },
-    {
-      mainImg: "1.png",
-      imgList: ["1.png"],
-      name: "THE METHOD OF SAMPLING",
-      link: "the-method-of-sampling",
-      description: "As part of the thesis show, The Method of Sampling analyzes how sampling in art is necessary and important to a creator. Allusions, detournement, and appropriation are all means of sampling which can improve an artist’s work."
-    },
-    {
-      mainImg: "1.jpg",
-      imgList: ["1.jpg","2.jpg",'3.png'],
-      name: "STEDMAN GALLERY THESIS SHOW",
-      link: "stedman-gallery-thesis-show",
-      description: "The Stedman Gallery thesis portrays works of the graduating seniors at Rutgers Camden. The show’s theme is pushing the boundaries and staying “Out of Line.” This work represents each senior’s project through shapes, as shapes are the foundation of all art. Art must push forward past the foundations and out of the box."
-    },
-    {
-      mainImg: "1.jpg",
-      imgList: ["1.jpg","2.jpg",'3.jpg'],
-      name: "THE SCIENCE OF SLEEP",
-      link: "the-science-of-sleep",
-      description: "The Science of Sleep is a story of how a young man learns to cope with the death of his father. He becomes obsessed with his imagination and is imprisoned by his own mind. This redesign captures the image of his solitary mind and alternate reality."
-    },
-    {
-      mainImg: "1.jpg",
-      imgList: ["1.jpg",'2.jpg','3.jpg','4.jpg','5.jpg','6.jpg','7.jpg','8.jpg','9.jpg','10.jpg','11.jpg','12.jpg','13.jpg','14.jpg','15.jpg','16.jpg','17.jpg','18.jpg','19.jpg','20.jpg','21.jpg'],
-      name: "LIVE LAUGH DIE",
-      link: "live-laugh-die",
-      description: "This process book derives from a personal narrative love story called Live Laugh Die. With the use of text, scale, and imagery, this process book shows how a simple text can be transformed into various works."
-    },
-  ];
-  
+    description:
+      "Philly Faces is a rebrand of Philly Phaces. This non-profit organization helps children and families of those in need, particularly those with Congenital Facial Abnormalities.",
+  },
+  {
+    mainImg: "1.png",
+    imgList: ["1.png"],
+    name: "THE METHOD OF SAMPLING",
+    link: "the-method-of-sampling",
+    description:
+      "As part of the thesis show, The Method of Sampling analyzes how sampling in art is necessary and important to a creator. Allusions, detournement, and appropriation are all means of sampling which can improve an artist’s work.",
+  },
+  {
+    mainImg: "2.png",
+    imgList: ["1.png", "2.png"],
+    name: "THE FOLD",
+    link: "the-fold",
+    description:
+      "The Fold is a display typeface made to be expressive due to its thick strokes. Its unique shape makes it noticeable and helps attract the viewer’s eye.",
+  },
+  {
+    mainImg: "v1.mp4",
+    imgList: ["v1.mp4", "1.png", "2.png", "3.png"],
+    name: "lOADING SCREENS",
+    link: "loading-screens",
+    description:
+      "The Art of Loading Screens is a website made to show the significance of loading screens of video games. With the use of vivid imagery and large scale text, the viewer is meant to learn how loading screens help both the user and the creators of the game.",
+  },
+  {
+    mainImg: "1.jpg",
+    imgList: ["1.jpg", "2.jpg", "3.jpg"],
+    name: "THE SCIENCE OF SLEEP",
+    link: "the-science-of-sleep",
+    description:
+      "The Science of Sleep is a story of how a young man learns to cope with the death of his father. He becomes obsessed with his imagination and is imprisoned by his own mind. This redesign captures the image of his solitary mind and alternate reality.",
+  },
+  {
+    mainImg: "2.png",
+    imgList: ["1.png", "2.png", "3.png", "4.png"],
+    name: "Waves",
+    link: "waves",
+    description:
+      "To many, music is a basic human need, on top of drinking water. The Waves brand captures the essence of a person who enjoys the outdoors and a listener of music.",
+  },
+  {
+    mainImg: "2.png",
+    imgList: ["1.png", "2.png"],
+    name: "CULTURE CONNECT",
+    link: "culture-connect",
+    description:
+      "Culture Connect is a brand with the purpose of helping immigrants adapt to America. Volunteers help immigrants with difficult tasks such as filing for taxes, filling out documents, and even learning how to understand English.",
+  },
+  {
+    mainImg: "1.jpg",
+    imgList: [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg",
+      "7.jpg",
+      "8.jpg",
+      "9.jpg",
+      "10.jpg",
+      "11.jpg",
+      "12.jpg",
+      "13.jpg",
+      "14.jpg",
+      "15.jpg",
+      "16.jpg",
+      "17.jpg",
+      "18.jpg",
+      "19.jpg",
+      "20.jpg",
+      "21.jpg",
+    ],
+    name: "LIVE LAUGH DIE",
+    link: "live-laugh-die",
+    description:
+      "This process book derives from a personal narrative love story called Live Laugh Die. With the use of text, scale, and imagery, this process book shows how a simple text can be transformed into various works.",
+  },
+];
 
-  const notUsed = [
-    
-    {
-      img: "1.jpg",
-      name: "Val Bui",
-      link: "val-bui",
-      description: "filler for now"
-    },
-    {
-      img: "3.jpg",
-      name: "lOADING SCREENS IN ACTION",
-      link: "loading-screens-in-action",
-      description: "filler for now"
-    },
-    {
-      img: "5.jpg",
-      name: "SAMPLING IS A METHOD",
-      link: "sampling-is-a-method",
-      description: "filler for now"
-    },
-    {
-      img: "7.jpg",
-      name: "STEDMAN GALLERY THESIS SHOW",
-      link: "stedman-gallery-thesis-show",
-      description: "The Stedman Gallery thesis portrays works of the graduating seniors at Rutgers Camden. The show’s theme is pushing the boundaries and staying “Out of Line.” This work represents each senior’s project through shapes, as shapes are the foundation of all art. Art must push forward past the foundations and out of the box."
-    },
-    {
-      img: "8.jpg",
-      name: "VMPA SENIOR THESIS SHOW",
-      link: "vmpa-senior-thesis-show",
-      description: "filler for now"
-    },
-    {
-      img: "11.jpg",
-      name: "GHOSTED",
-      link: "ghosted",
-      description: "filler for now"
-    },
-    {
-      img: "15.jpg",
-      name: "IDK THE NAME BUT IT LOOKS COOL..... ITS A PREVIEW ANYWAYS... HAVE FUN! :)",
-      link: "idk",
-      description: "filler for now"
-    },
-  ];
+const notUsed = [
+  {
+    img: "1.jpg",
+    name: "Val Bui",
+    link: "val-bui",
+    description: "filler for now",
+  },
+  {
+    img: "3.jpg",
+    name: "lOADING SCREENS IN ACTION",
+    link: "loading-screens-in-action",
+    description: "filler for now",
+  },
+  {
+    img: "5.jpg",
+    name: "SAMPLING IS A METHOD",
+    link: "sampling-is-a-method",
+    description: "filler for now",
+  },
+  {
+    img: "7.jpg",
+    name: "STEDMAN GALLERY THESIS SHOW",
+    link: "stedman-gallery-thesis-show",
+    description:
+      "The Stedman Gallery thesis portrays works of the graduating seniors at Rutgers Camden. The show’s theme is pushing the boundaries and staying “Out of Line.” This work represents each senior’s project through shapes, as shapes are the foundation of all art. Art must push forward past the foundations and out of the box.",
+  },
+  {
+    img: "8.jpg",
+    name: "VMPA SENIOR THESIS SHOW",
+    link: "vmpa-senior-thesis-show",
+    description: "filler for now",
+  },
+  {
+    img: "11.jpg",
+    name: "GHOSTED",
+    link: "ghosted",
+    description: "filler for now",
+  },
+  {
+    img: "15.jpg",
+    name: "IDK THE NAME BUT IT LOOKS COOL..... ITS A PREVIEW ANYWAYS... HAVE FUN! :)",
+    link: "idk",
+    description: "filler for now",
+  },
+];
