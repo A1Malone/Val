@@ -4,12 +4,15 @@ export default function Project(props) {
     <>
       <div className="w-screen px-7">
         <div className="flex gap-0 flex-col lg:flex-row">
-          <div className="flex-none w-auto lg:w-80 space-y-4 mt-10">
+          <div className="relative">
+          <div className="flex-none sticky top-0 w-auto lg:w-80 space-y-4 mt-10">
             <p className="text-4xl lg:text-5xl leading-relaxed   ...">
               {props.name}
             </p>
-            <p className="text-xl ...">type of design</p>
+            {/*<p className="text-xl ...">type of design</p>*/}
             <p className="text-xl pb-10 pt-10">{props.description}</p>
+          </div>
+
           </div>
           <div className="grow px-2 ">
             {imageList.map((img, i) =>
