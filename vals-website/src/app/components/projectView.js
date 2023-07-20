@@ -1,5 +1,4 @@
 export default function Project(props) {
-
   const imageList = props.imgList;
   return (
     <>
@@ -13,58 +12,54 @@ export default function Project(props) {
             <p className="text-xl pb-10 pt-10">{props.description}</p>
           </div>
           <div className="grow px-2 ">
-            {
-              imageList.map((img,i) => (
-                  (img.slice(img.length - 4) == ".mp4") ? 
-      
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    className="w-full mb-3"
-                  >
-                    <source
-                      src={`/assets/portfolio/${props.name}/${img}`}
-                      type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                  </video> :
-                <img key={i} className="w-full mb-3" src={`/assets/portfolio/${props.name}/${img}`} />
-                  
-                
-                
-              ))
-            }
-          </div>
-          <div className="flex flex-row pt-5 w-20 mx-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-9 h-9 stroke-2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15.75 19.5L8.25 12l7.5-7.5"
-              />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-              className="w-9 h-9 stroke-2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M8.25 4.5l7.5 7.5-7.5 7.5"
-              />
-            </svg>
+            {imageList.map((img, i) =>
+              img.slice(img.length - 4) == ".mp4" ? (
+                <video autoPlay loop muted className="w-full mb-3">
+                  <source
+                    src={`/assets/portfolio/${props.name}/${img}`}
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              ) : (
+                <img
+                  key={i}
+                  className="w-full mb-3"
+                  src={`/assets/portfolio/${props.name}/${img}`}
+                />
+              )
+            )}
+
+            <div className="flex flex-row pt-5 w-20 mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-9 h-9 stroke-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-9 h-9 stroke-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </div>
           </div>
         </div>
       </div>
