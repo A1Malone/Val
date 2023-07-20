@@ -34,7 +34,7 @@ export const projects = [
   {
     mainImg: "v1.mp4",
     imgList: ["v1.mp4", "1.png", "2.png", "3.png"],
-    name: "lOADING SCREENS",
+    name: "LOADING SCREENS",
     link: "loading-screens",
     description:
       "The Art of Loading Screens is a website made to show the significance of loading screens of video games. With the use of vivid imagery and large scale text, the viewer is meant to learn how loading screens help both the user and the creators of the game.",
@@ -50,7 +50,7 @@ export const projects = [
   {
     mainImg: "2.png",
     imgList: ["1.png", "2.png", "3.png", "4.png"],
-    name: "Waves",
+    name: "WAVES",
     link: "waves",
     description:
       "To many, music is a basic human need, on top of drinking water. The Waves brand captures the essence of a person who enjoys the outdoors and a listener of music.",
