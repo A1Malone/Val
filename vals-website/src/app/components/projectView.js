@@ -27,7 +27,7 @@ export default function Project(props) {
               ) : (
                 <img
                   key={i}
-                  className="w-full mb-3"
+                  className="w-full lg:w-1/2 mb-[96px]"
                   src={`/assets/portfolio/${props.name}/${img}`}
                 />
               )
