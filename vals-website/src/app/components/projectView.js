@@ -6,7 +6,7 @@ export default function Project(props) {
         <div className="flex gap-0 flex-col lg:flex-row">
           <div className="relative">
           <div className="flex-none sticky top-0 w-auto lg:w-80 space-y-4 mt-10">
-            <p className="text-4xl lg:text-5xl leading-relaxed   ...">
+            <p className="text-4xl pt-5 lg:text-5xl leading-relaxed   ...">
               {props.name}
             </p>
             {/*<p className="text-xl ...">type of design</p>*/}
@@ -14,7 +14,7 @@ export default function Project(props) {
           </div>
 
           </div>
-          <div className="grow px-2 ">
+          <div className="grow px-2 lg:ml-5">
             {imageList.map((img, i) =>
               img.slice(img.length - 4) == ".mp4" ? (
                 <video autoPlay loop muted className="w-full mb-3">
