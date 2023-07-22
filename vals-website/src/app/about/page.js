@@ -9,7 +9,7 @@ export default function Home() {
       <div className="text-center w-full lg:w-1/2 mx-auto pt-20">
         <img className="w-60 mx-auto" src="/assets/_MG_0075.png" />
         <p className="font-bold leading-loose text-4xl">Hi! I'm Val Bui.</p>
-        <p className="text-xl leading-loose px-2 lg:text-3xl">
+        <p className="text-xl leading-loose px-2 lg:leading-loose lg:text-3xl">
           Based in New Jersey, USA, I am an independent branding artist and
           photographer. With over 6 years of designing, I've been able to work
           with clients around the world.
@@ -19,14 +19,14 @@ export default function Home() {
           <div className="flex flex-col">
           <a
             href="mailto:valbuiofficial@gmail.com"
-            className="font-semibold text-xl leading-loose lg:text-3xl"
+            className="font-semibold text-xl lg:leading-loose lg:text-3xl"
           >
             valbuiofficial@gmail.com
           </a>
           <a
             href="/assets/Resume.pdf"
             target="_blank"
-            className="font-semibold text-xl leading-loose lg:text-3xl"
+            className="font-semibold text-xl lg:leading-loose lg:text-3xl"
           >
             View My Resume{" "}
           </a>
