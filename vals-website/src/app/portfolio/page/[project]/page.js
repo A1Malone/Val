@@ -4,6 +4,27 @@ import Footer from "../../../components/footer"
 import Project from "../../../components/projectView";
 import { projects } from "../../../constant";
 
+export async function generateMetadata({ params }) {
+  // read route params
+  const link = params.project
+ 
+  // fetch data  
+  const verify = projects.find( e => e.link === link );
+  console.log(`verify result:[${verify}]`);
+  if (verify) {
+    return {
+      title: `Val Bui - ${verify.name}`,
+      description: 'Striving to create a brand identity through graphic and UX design that leaves a lasting impression for your audience.',
+    };
+  } else {
+    return {
+      title: `Val Bui`,
+      description: 'Striving to create a brand identity through graphic and UX design that leaves a lasting impression for your audience.',
+    };
+
+};
+}
+
 export default function PortfolioPage({params}) {
     const param = params.project;
     const check = () => {
