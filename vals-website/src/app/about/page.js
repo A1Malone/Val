@@ -9,7 +9,7 @@ export default function Home() {
       <div className="text-center w-full lg:w-1/2 mx-auto pt-20">
         <img className="w-60 mx-auto" src="/assets/_MG_0075.png" />
         <p className="font-bold leading-loose text-4xl">Hi! I'm Val Bui.</p>
-        <p className="text-xl leading-loose px-2 lg:leading-loose lg:text-3xl">
+        <p className="text-xl leading-loose px-2 mx-auto lg:w-[85%] lg:break-all lg:leading-loose lg:text-3xl">
           Based in New Jersey, USA, I am an independent branding artist and
           photographer. With over 6 years of designing, I've been able to work
           with clients around the world.
