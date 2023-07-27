@@ -40,7 +40,7 @@ export default function Nav() {
                     alt="Your Company"
                   />
                   <img
-                    className="hidden h-14 lg:h-24 lg:block"
+                    className="hidden h-14 lg:h-20 lg:block"
                     src="/brand.png"
                     alt="Your Company"
                   />

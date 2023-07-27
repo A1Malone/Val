@@ -12,7 +12,7 @@ export default function Home() {
         <p className="font-bold leading-loose pb-3 text-4xl">
           Hi! I'm Val Bui.
         </p>
-        <p className="text-xl leading-loose text-justify  px-8 mx-auto lg:w-[85%]  lg:leading-loose lg:text-3xl">
+        <p className="text-xl leading-loose break-all  px-8 mx-auto lg:w-[85%]  lg:leading-loose lg:text-3xl">
           Graphic Designer with over 6 years of experience in the creative
           design process. Proven experience within developmental processes and
           managerial positions. Specializing in custom branding and building
