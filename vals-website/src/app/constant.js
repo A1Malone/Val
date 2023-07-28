@@ -24,8 +24,8 @@ export const projects = [
       "As part of the thesis show, The Method of Sampling analyzes how sampling in art is necessary and important to a creator. Allusions, detournement, and appropriation are all means of sampling which can improve an artist’s work.",
   },
   {
-    mainImg: "2.png",
-    imgList: ["1.png", "2.png"],
+    mainImg: "1.png",
+    imgList: ["1.png", "2.png", "3.png"],
     name: "THE FOLD",
     link: "the-fold",
     description:
