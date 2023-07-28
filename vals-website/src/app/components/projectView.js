@@ -17,7 +17,7 @@ export default function Project(props) {
           <div className="grow px-2 lg:ml-5">
             {imageList.map((img, i) =>
               img.slice(img.length - 4) == ".mp4" ? (
-                <video autoPlay loop muted className="w-full mb-3">
+                <video autoPlay loop muted className="w-full mb-[96px]">
                   <source
                     src={`/assets/portfolio/${props.name}/${img}`}
                     type="video/mp4"
