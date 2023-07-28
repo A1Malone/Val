@@ -23,7 +23,7 @@ export default function Contact(props) {
                     <div className="sm:col-span-2">
                         <label
                             htmlFor="Name"
-                            className="block text-lg font-semibold leading-6 text-white"
+                            className="block text-left text-lg font-semibold leading-6 text-white"
                         >
                             Name
                         </label>
@@ -40,7 +40,7 @@ export default function Contact(props) {
                     <div className="sm:col-span-2">
                         <label
                             htmlFor="email"
-                            className="block text-lg font-semibold leading-6 text-white"
+                            className="block text-left text-lg font-semibold leading-6 text-white"
                         >
                             Email
                         </label>
@@ -57,7 +57,7 @@ export default function Contact(props) {
                     <div className="sm:col-span-2">
                         <label
                             htmlFor="message"
-                            className="block text-lg font-semibold leading-6 text-white"
+                            className="block text-left text-lg font-semibold leading-6 text-white"
                         >
                             Message
                         </label>
