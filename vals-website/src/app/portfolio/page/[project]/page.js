@@ -46,7 +46,7 @@ export default function PortfolioPage({params}) {
 
 
       <Nav />
-    <Project name={check().name} imgList={check().imgList} description={check().description}/>
+    <Project name={check().name} imgList={check().imgList} description={check().description} right={projects[projects.indexOf(check()) + 1].link} left={projects[projects.indexOf(check()) - 1].link}/>
     <Footer />
     </>
   );

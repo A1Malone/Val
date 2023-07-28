@@ -34,6 +34,7 @@ export default function Project(props) {
             )}
 
             <div className="flex flex-row pt-5 w-20 mx-auto">
+            <a href={`/portfolio/page/${props.left}`} className="mr-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -48,6 +49,10 @@ export default function Project(props) {
                   d="M15.75 19.5L8.25 12l7.5-7.5"
                 />
               </svg>
+
+            </a>
+
+            <a href={`/portfolio/page/${props.right}`} className="mr-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -62,6 +67,8 @@ export default function Project(props) {
                   d="M8.25 4.5l7.5 7.5-7.5 7.5"
                 />
               </svg>
+
+            </a>
             </div>
           </div>
         </div>
