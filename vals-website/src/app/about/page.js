@@ -29,7 +29,7 @@ export default function Home() {
                 valbuiofficial@gmail.com
               </a>
               <a
-                href="/assets/Resume.pdf"
+                href="/Resume.pdf"
                 target="_blank"
                 className="font-semibold text-xl lg:leading-loose lg:text-3xl"
               >
