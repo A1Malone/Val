@@ -40,7 +40,6 @@ export default function PortfolioPage({params}) {
 
     };
   }
-    console.log(`the result: ${JSON.stringify(check())}`)
   return (
     <>
 
