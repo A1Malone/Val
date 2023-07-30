@@ -31,7 +31,7 @@ export default function PortfolioPage({params}) {
       const verify = projects.find( e => e.link === param );
       console.log(`verify result:[${verify}]`);
       if (verify) {
-        return verify;
+        return <Project name={verify.name} imgList={verify.imgList} description={verify.description} right={projects[(projects.indexOf(verify) + 1) % projects.length].link} left={projects[(projects.indexOf(verify) - 1) % projects.length].link}/>;
       } else {
         return (
           //console.log(`this is wrong you used link ${param}`),
@@ -40,13 +40,16 @@ export default function PortfolioPage({params}) {
 
     };
   }
+  console.log(projects.length);
+
+  const data = check();
   return (
     <>
 
 
       <Nav />
-    <Project name={check().name} imgList={check().imgList} description={check().description} right={projects[projects.indexOf(check()) + 1].link} left={projects[projects.indexOf(check()) - 1].link}/>
-    <Footer />
+      {check()}
+   <Footer />
     </>
   );
 }
