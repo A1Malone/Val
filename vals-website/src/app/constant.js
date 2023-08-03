@@ -6,6 +6,8 @@ export const projects = [
     link: "stedman-gallery-thesis-show",
     description:
       "The Stedman Gallery thesis portrays works of the graduating seniors at Rutgers Camden. The show’s theme is pushing the boundaries and staying “Out of Line.” This work represents each senior’s project through shapes, as shapes are the foundation of all art. Art must push forward past the foundations and out of the box.",
+    left: "live-laugh-die",
+    right: "philly-faces"
   },
   {
     mainImg: "v1.mp4",
@@ -14,7 +16,9 @@ export const projects = [
     link: "philly-faces",
     description:
       "Philly Faces is a rebrand of Philly Phaces. This non-profit organization helps children and families of those in need, particularly those with Congenital Facial Abnormalities.",
-  },
+      left: "stedman-gallery-thesis-show",
+      right: "the-method-of-sampling"
+    },
   {
     mainImg: "1.png",
     imgList: ["1.png"],
@@ -22,7 +26,9 @@ export const projects = [
     link: "the-method-of-sampling",
     description:
       "As part of the thesis show, The Method of Sampling analyzes how sampling in art is necessary and important to a creator. Allusions, detournement, and appropriation are all means of sampling which can improve an artist’s work.",
-  },
+      left: "philly-faces",
+      right: "the-fold"
+    },
   {
     mainImg: "1.png",
     imgList: ["1.png", "2.png", "3.png"],
@@ -30,6 +36,8 @@ export const projects = [
     link: "the-fold",
     description:
       "The Fold is a display typeface made to be expressive due to its thick strokes. Its unique shape makes it noticeable and helps attract the viewer’s eye.",
+      left: "the-method-of-sampling",
+      right: "loading-screens"
   },
   {
     mainImg: "v1.mp4",
@@ -38,7 +46,9 @@ export const projects = [
     link: "loading-screens",
     description:
       "The Art of Loading Screens is a website made to show the significance of loading screens of video games. With the use of vivid imagery and large scale text, the viewer is meant to learn how loading screens help both the user and the creators of the game.",
-  },
+      left: "the-fold",
+      right: "the-science-of-sleep"
+    },
   {
     mainImg: "1.jpg",
     imgList: ["1.jpg", "2.jpg", "3.jpg"],
@@ -46,7 +56,9 @@ export const projects = [
     link: "the-science-of-sleep",
     description:
       "The Science of Sleep is a story of how a young man learns to cope with the death of his father. He becomes obsessed with his imagination and is imprisoned by his own mind. This redesign captures the image of his solitary mind and alternate reality.",
-  },
+      left: "loading-screens",
+      right: "waves"
+    },
   {
     mainImg: "2.png",
     imgList: ["1.png", "2.png", "3.png", "4.png"],
@@ -54,6 +66,8 @@ export const projects = [
     link: "waves",
     description:
       "To many, music is a basic human need, on top of drinking water. The Waves brand captures the essence of a person who enjoys the outdoors and a listener of music.",
+      left: "the-science-of-sleep",
+      right: "culture-connect"
   },
   {
     mainImg: "2.png",
@@ -62,7 +76,9 @@ export const projects = [
     link: "culture-connect",
     description:
       "Culture Connect is a brand with the purpose of helping immigrants adapt to America. Volunteers help immigrants with difficult tasks such as filing for taxes, filling out documents, and even learning how to understand English.",
-  },
+      left: "waves",
+      right: "live-laugh-die"
+    },
   {
     mainImg: "1.jpg",
     imgList: [
@@ -92,7 +108,9 @@ export const projects = [
     link: "live-laugh-die",
     description:
       "This process book derives from a personal narrative love story called Live Laugh Die. With the use of text, scale, and imagery, this process book shows how a simple text can be transformed into various works.",
-  },
+      left: "culture-connect",
+      right: "stedman-gallery-thesis-show"
+    },
 ];
 
 

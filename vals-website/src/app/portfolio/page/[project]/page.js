@@ -61,7 +61,7 @@ export default function PortfolioPage({params}) {
       console.log(JSON.stringify(next('left')) + " next is now")
       
       if (verify) {
-        return <Project name={verify.name} imgList={verify.imgList} description={verify.description} right={projects[JSON.stringify(next('right'))]} left={JSON.stringify(next('left'))} />;
+        return <Project name={verify.name} imgList={verify.imgList} description={verify.description} right={verify.right} left={verify.left} />;
       } else {
         return (
           //console.log(`this is wrong you used link ${param}`),
