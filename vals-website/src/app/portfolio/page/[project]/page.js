@@ -27,6 +27,8 @@ export async function generateMetadata({ params }) {
 
 export default function PortfolioPage({params}) {
     const param = params.project;
+
+    //start with the check function when trying to fix the arrows
     const check = () => {
       const verify = projects.find( e => e.link === param );
       console.log(`verify result:[${JSON.stringify(verify)}] at place ${projects.indexOf(verify)}`);
