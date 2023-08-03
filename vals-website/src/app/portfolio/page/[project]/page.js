@@ -29,9 +29,39 @@ export default function PortfolioPage({params}) {
     const param = params.project;
     const check = () => {
       const verify = projects.find( e => e.link === param );
-      console.log(`verify result:[${verify}]`);
+      console.log(`verify result:[${JSON.stringify(verify)}] at place ${projects.indexOf(verify)}`);
+
+      
+      const next = (value) => {
+        const place = projects.indexOf(verify);
+        //console.log(place + "test" + JSON.stringify(projects[0].link))
+        const right = place + 1;
+        const left = place - 1;
+        
+        if (value == "right") {
+          if ((right) > Number(projects.length)) {
+            //console.log(JSON.stringify(projects[0].link) + " sadsf")
+            
+        //console.log(JSON.stringify(projects[0]) + "help" + projects.length)
+            return projects[0].link
+          } else {
+            return projects[right].link
+          }
+        } 
+
+        if (value == "left") {
+          if ((left) < 0) {
+            // will need to fix this for the lnegth of the array and not the exact number
+            return  projects[projects.length - 1].link
+          } else {
+            return  projects[left].link
+          }
+        } 
+      }
+      console.log(JSON.stringify(next('left')) + " next is now")
+      
       if (verify) {
-        return <Project name={verify.name} imgList={verify.imgList} description={verify.description} right={projects[(projects.indexOf(verify) + 1) % projects.length].link} left={projects[(projects.indexOf(verify) - 1) % projects.length].link}/>;
+        return <Project name={verify.name} imgList={verify.imgList} description={verify.description} right={projects[JSON.stringify(next('right'))]} left={JSON.stringify(next('left'))} />;
       } else {
         return (
           //console.log(`this is wrong you used link ${param}`),
@@ -41,8 +71,6 @@ export default function PortfolioPage({params}) {
     };
   }
   console.log(projects.length);
-
-  const data = check();
   return (
     <>
 
