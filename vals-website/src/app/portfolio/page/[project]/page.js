@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
   if (verify) {
     return {
       title: `Val Bui - ${verify.name}`,
-      description: 'Striving to create a brand identity through graphic and UX design that leaves a lasting impression for your audience.',
+      description: `${verify.description.slice(0,159)}...`,
     };
   } else {
     return {
