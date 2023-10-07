@@ -54,52 +54,6 @@ export const projects = [
     description:
       "Philly Faces is a rebrand of Philly Phaces. This non-profit organization helps children and families of those in need, particularly those with Congenital Facial Abnormalities.",
       left: "stedman-gallery-thesis-show",
-      right: "the-method-of-sampling"
-    },
-  {
-    mainImg: "1.png",
-    imgList: [
-      "1.png",
-      "2.png",
-      "3.png",
-      "4.png",
-      "5.png",
-      "6.png",
-      "7.png",
-      "8.png",
-      "9.png",
-      "10.png",
-      "11.png",
-      "12.png",
-      "13.png",
-      "14.png",
-      "15.png",
-      "16.png",
-      "17.png",
-      "18.png",
-      "19.png",
-      "20.png",
-      "21.png",
-      "22.png",
-      "23.png",
-      "24.png",
-      "25.png",
-      "26.png",
-      "27.png",
-      "28.png",
-      "29.png",
-      "30.png",
-      "31.png",
-      "32.png",
-      "31.png",
-      "34.png",
-      "v1.mp4"
-    ],
-    name: "THE METHOD OF SAMPLING",
-    link: "the-method-of-sampling",
-    description:
-      "As part of the thesis show, The Method of Sampling analyzes how sampling in art is necessary and important to a creator. Allusions, detournement, and appropriation are all means of sampling which can improve an artist’s work.",
-      left: "philly-faces",
       right: "the-fold"
     },
   {
@@ -109,7 +63,7 @@ export const projects = [
     link: "the-fold",
     description:
       "The Fold is a display typeface made to be expressive due to its thick strokes. Its unique shape makes it noticeable and helps attract the viewer’s eye.",
-      left: "the-method-of-sampling",
+      left: "philly-faces",
       right: "loading-screens"
   },
   {
@@ -130,8 +84,54 @@ export const projects = [
     description:
       "The Science of Sleep is a story of how a young man learns to cope with the death of his father. He becomes obsessed with his imagination and is imprisoned by his own mind. This redesign captures the image of his solitary mind and alternate reality.",
       left: "loading-screens",
-      right: "culture-connect"
+      right: "the-method-of-sampling"
     },
+    {
+      mainImg: "1.png",
+      imgList: [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png",
+        "11.png",
+        "12.png",
+        "13.png",
+        "14.png",
+        "15.png",
+        "16.png",
+        "17.png",
+        "18.png",
+        "19.png",
+        "20.png",
+        "21.png",
+        "22.png",
+        "23.png",
+        "24.png",
+        "25.png",
+        "26.png",
+        "27.png",
+        "28.png",
+        "29.png",
+        "30.png",
+        "31.png",
+        "32.png",
+        "31.png",
+        "34.png",
+        "v1.mp4"
+      ],
+      name: "THE METHOD OF SAMPLING",
+      link: "the-method-of-sampling",
+      description:
+        "As part of the thesis show, The Method of Sampling analyzes how sampling in art is necessary and important to a creator. Allusions, detournement, and appropriation are all means of sampling which can improve an artist’s work.",
+        left: "the-science-of-sleep",
+        right: "culture-connect"
+      },
   {
     mainImg: "2.png",
     imgList: ["1.png", "2.png"],
