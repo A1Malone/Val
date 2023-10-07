@@ -93,18 +93,8 @@ export const projects = [
     description:
       "The Science of Sleep is a story of how a young man learns to cope with the death of his father. He becomes obsessed with his imagination and is imprisoned by his own mind. This redesign captures the image of his solitary mind and alternate reality.",
       left: "loading-screens",
-      right: "waves"
-    },
-  {
-    mainImg: "2.png",
-    imgList: ["1.png", "2.png", "3.png", "4.png"],
-    name: "WAVES",
-    link: "waves",
-    description:
-      "To many, music is a basic human need, on top of drinking water. The Waves brand captures the essence of a person who enjoys the outdoors and a listener of music.",
-      left: "the-science-of-sleep",
       right: "culture-connect"
-  },
+    },
   {
     mainImg: "2.png",
     imgList: ["1.png", "2.png"],
