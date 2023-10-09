@@ -58,7 +58,7 @@ export const projects = [
     },
   {
     mainImg: "1.png",
-    imgList: ["1.png", "2.png", "3.png"],
+    imgList: ["1.png", "2.png", "3.png","4.png"],
     name: "THE FOLD",
     link: "the-fold",
     description:
@@ -87,8 +87,9 @@ export const projects = [
       right: "the-method-of-sampling"
     },
     {
-      mainImg: "1.png",
+      mainImg: "v1.mp4",
       imgList: [
+        "v1.mp4",
         "1.png",
         "2.png",
         "3.png",
@@ -123,7 +124,6 @@ export const projects = [
         "32.png",
         "31.png",
         "34.png",
-        "v1.mp4"
       ],
       name: "THE METHOD OF SAMPLING",
       link: "the-method-of-sampling",
@@ -133,8 +133,8 @@ export const projects = [
         right: "culture-connect"
       },
   {
-    mainImg: "2.png",
-    imgList: ["1.png", "2.png"],
+    mainImg: "1.png",
+    imgList: ["1.png", "2.png","3.png", "4.png"],
     name: "CULTURE CONNECT",
     link: "culture-connect",
     description:
