@@ -134,7 +134,7 @@ export const projects = [
       },
   {
     mainImg: "1.png",
-    imgList: ["1.png", "2.png","3.png", "4.png"],
+    imgList: ["1.png", "2.png"],
     name: "CULTURE CONNECT",
     link: "culture-connect",
     description:
