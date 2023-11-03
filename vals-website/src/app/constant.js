@@ -87,7 +87,7 @@ export const projects = [
       right: "the-method-of-sampling"
     },
     {
-      mainImg: "v1.mp4",
+      mainImg: "v2.mp4",
       imgList: [
         "v1.mp4",
         "1.png",
