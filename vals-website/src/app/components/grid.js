@@ -11,6 +11,7 @@ export default function Grid(props) {
               autoPlay
               loop
               muted
+              playsInline
               className="gridimg"
             >
               <source
