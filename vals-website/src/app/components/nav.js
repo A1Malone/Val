@@ -51,13 +51,14 @@ export default function Nav() {
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <Link key={item.name} href={`${item.href}`}
-                      
+                      className='group text-sky-600 transition duration-300'
+                      /*
                       className={classNames(
-                        item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                        item.current ? 'bg-gray-900 text-stone-950' : 'text-stone-950 hover:bg-gray-700 hover:text-white',
                         'rounded-md px-3 py-2 text-lg font-medium'
-                      )}
+                      )}*/
                       aria-current={item.current ? 'page' : undefined}
-                      >{item.name}</Link>
+                      >{item.name}<span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></Link>
                     ))}
                   </div>
                 </div>
