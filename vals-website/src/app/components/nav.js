@@ -58,7 +58,7 @@ export default function Nav() {
                         'rounded-md px-3 py-2 text-lg font-medium'
                       )}*/
                       aria-current={item.current ? 'page' : undefined}
-                      >{item.name}<span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></Link>
+                      >{item.name}<span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></Link>
                     ))}
                   </div>
                 </div>

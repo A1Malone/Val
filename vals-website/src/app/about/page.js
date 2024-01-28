@@ -13,15 +13,17 @@ export default function Home() {
           Hi! I'm Val Bui.
         </p>
         <p className="text-xl text-left px-8 mx-auto leading-normal lg:leading-normal  lg:text-3xl">
-          Graphic Designer with over 6 years of experience in the creative
-          design process. Proven experience within developmental processes and
-          managerial positions. Specializing in custom branding and building
-          strong connections. My passion for design and my dedication to
-          excellence leaves a lasting impression with clients.
+        I’m a Graphic Designer with over 6 years of experience in the creative design process. 
+        I have proven experience within developmental processes and managerial positions. 
+        I specialize in custom branding and building strong connections with my clients.
+        </p>
+        <p className="pt-4 text-xl text-left px-8 mx-auto leading-normal lg:leading-normal  lg:text-3xl "> 
+        When I’m not designing, I do freelance photography! Portraits, landscapes, weddings, graduations, you name it! 
+
         </p>
         <div className="flex flex-col my-[15%] p-8 gap-4 lg:flex-row">
           <div className="flex items-center justify-center">
-            <div className="flex flex-col">
+            <div className="flex flex-col text-start">
               <a
                 href="mailto:valbuiofficial@gmail.com"
                 className="font-semibold text-xl lg:leading-loose lg:text-xl"
