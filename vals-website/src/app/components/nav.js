@@ -41,7 +41,7 @@ export default function Nav() {
                   />
                   <img
                     className="hidden h-14 lg:h-20 lg:block"
-                    src="/brand.png"
+                    src="/assets/signature-C.png"
                     alt="Your Company"
                   />
                 </div>
