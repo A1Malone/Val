@@ -36,7 +36,7 @@ export default function Nav() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-16 lg:h-18 lg:hidden"
-                    src="/brand.png"
+                    src="/assets/signature-C.png"
                     alt="Your Company"
                   />
                   <img
