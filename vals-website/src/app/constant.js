@@ -222,3 +222,155 @@ const notUsed = [
     description: "filler for now",
   },
 ];
+
+
+export const gallery = [
+  {
+    img: "_MG_0237.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_0633.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_1408.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_1424.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_1939.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_3260.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_4172-Edit.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_4271.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_4995.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_5269.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_5406.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_6511-2.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_7523.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_7806.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_7957.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_7968.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_8091.png",
+    class: " ",
+  },
+  {
+    img: "_MG_8419.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_8573.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_9223.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_9311.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_9324-2.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_9337.png",
+    class: " ",
+  },
+  {
+    img: "2.jpg",
+    class: " ",
+  },
+  {
+    img: "3.jpg",
+    class: " ",
+  },
+  {
+    img: "4.jpg",
+    class: " ",
+  },
+  {
+    img: "9.jpg",
+    class: " ",
+  },
+  {
+    img: "53399561638_c911f1a763_o.jpg",
+    class: " ",
+  },
+  {
+    img: "53474904788_da7faaeed5_o.jpg",
+    class: " ",
+  },
+  {
+    img: "53496561769_33882755bc_o.jpg",
+    class: " ",
+  },
+  {
+    img: "53496683330_25b154b4be_o.jpg",
+    class: " ",
+  },
+  {
+    img: "IMG_1500.jpg",
+    class: " ",
+  },
+  {
+    img: "IMG_1555.jpg",
+    class: " ",
+  },
+  {
+    img: "IMG_1573.jpg",
+    class: " ",
+  },
+  {
+    img: "IMG_1723.jpg",
+    class: " ",
+  },
+  {
+    img: "IMG_1741.jpg",
+    class: " ",
+  },
+  {
+    img: "NIK_3118 (1).jpg",
+    class: " ",
+  },
+];

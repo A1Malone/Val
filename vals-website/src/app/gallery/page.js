@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Nav />
       <div className="w-full">
-      <img className="galleryImg" src={`/assets/gallery/2.jpg`} />
+      <img className="galleryImg" src={`/assets/gallery/_MG_0237.jpg`} />
       <img className="galleryImg" src={`/assets/gallery/3.jpg`} />
       <img className="galleryImg" src={`/assets/gallery/4.jpg`} />
       <img className="galleryImg" src={`/assets/gallery/9.jpg`} />
