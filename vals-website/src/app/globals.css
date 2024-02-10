@@ -81,3 +81,10 @@ font-family: Bahn !important;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+
+.galleryImg {
+  display: block;
+  width: 50%;
+  height: auto;
+}

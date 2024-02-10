@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <>
       <Nav />
-      <div className="text-center w-full lg:w-1/2 mx-auto pt-20">
+      <div className="w-full">
+      <img className="galleryImg" src={`/assets/gallery/2.jpg`} />
+      <img className="galleryImg" src={`/assets/gallery/3.jpg`} />
+      <img className="galleryImg" src={`/assets/gallery/4.jpg`} />
+      <img className="galleryImg" src={`/assets/gallery/9.jpg`} />
       </div>
       <Footer />
     </>
