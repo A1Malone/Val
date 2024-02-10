@@ -2,13 +2,15 @@ import Nav from "./components/nav";
 import Footer from "./components/footer"
 import Grid from "./components/grid";
 import { projects } from "./constant";
+const mainImg = "/assets/landingImg.png";
 
 
 export default function Home() {
   return (
     <>
       <Nav />
-      
+      {/* i removed bg-cover  */}
+      <div className="min-h-screen bg-[length:100%_50%] bg-no-repeat bg-fixed bg-center lg:bg-[length:70%_70%] " style={{backgroundImage: `url(${mainImg})`}}></div>
           
       <div className="gap-0 columns-1 md:columns-2">
         
