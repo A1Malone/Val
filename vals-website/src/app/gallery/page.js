@@ -40,7 +40,6 @@ export default function Home() {
           </div>
           <div className="w-full">
             <div className="isolate py-6">
-              <Contact />
             </div>
           </div>
         </div>
