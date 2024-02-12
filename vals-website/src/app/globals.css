@@ -85,6 +85,6 @@ font-family: Bahn !important;
 
 .galleryImg {
   display: block;
-  width: 50%;
+  /*width: 50%;*/
   height: auto;
 }
