@@ -1,16 +1,22 @@
 "use client";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
+import {gallery} from "../constant"
 
 export default function Home() {
   return (
     <>
       <Nav />
       <div className="w-full">
-      <img className="galleryImg" src={`/assets/gallery/_MG_0237.jpg`} />
-      <img className="galleryImg" src={`/assets/gallery/3.jpg`} />
-      <img className="galleryImg" src={`/assets/gallery/4.jpg`} />
-      <img className="galleryImg" src={`/assets/gallery/9.jpg`} />
+        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+          
+        {
+          gallery.map((nPhotos, i) => (
+            <img className="galleryImg" src={`/assets/gallery/${nPhotos.img}`} key={i} />    
+          ))
+        }
+
+        </div>
       </div>
       <Footer />
     </>
