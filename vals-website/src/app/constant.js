@@ -362,7 +362,7 @@ export const gallery = [
     class: " ",
   },
   {
-    img: "IMG_1723.jpg",
+    img: "IMG_1723.png",
     class: " ",
   },
   {
