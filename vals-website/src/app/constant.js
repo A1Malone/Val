@@ -238,11 +238,23 @@ export const gallery = [
     class: " ",
   },
   {
+    img: "_MG_1939.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_4995.jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_8419.jpg",
+    class: " ",
+  },
+  {
     img: "_MG_1424.jpg",
     class: " ",
   },
   {
-    img: "_MG_1939.jpg",
+    img: "_MG_7806.jpg",
     class: " ",
   },
   {
@@ -258,7 +270,15 @@ export const gallery = [
     class: " ",
   },
   {
-    img: "_MG_4995.jpg",
+    img: "_MG_5406.jpg",
+    class: " ",
+  },
+  {
+    img: "NIK_3118 (1).jpg",
+    class: " ",
+  },
+  {
+    img: "_MG_8573.jpg",
     class: " ",
   },
   {
@@ -266,19 +286,11 @@ export const gallery = [
     class: " ",
   },
   {
-    img: "_MG_5406.jpg",
-    class: " ",
-  },
-  {
-    img: "_MG_6511-2.jpg",
-    class: " ",
-  },
-  {
     img: "_MG_7523.jpg",
     class: " ",
   },
   {
-    img: "_MG_7806.jpg",
+    img: "_MG_6511-2.jpg",
     class: " ",
   },
   {
@@ -287,22 +299,6 @@ export const gallery = [
   },
   {
     img: "_MG_7968.jpg",
-    class: " ",
-  },
-  {
-    img: "_MG_8091.png",
-    class: " ",
-  },
-  {
-    img: "_MG_8419.jpg",
-    class: " ",
-  },
-  {
-    img: "_MG_8573.jpg",
-    class: " ",
-  },
-  {
-    img: "_MG_9223.jpg",
     class: " ",
   },
   {
@@ -315,6 +311,14 @@ export const gallery = [
   },
   {
     img: "_MG_9337.png",
+    class: " ",
+  },
+  {
+    img: "_MG_8091.png",
+    class: " ",
+  },
+  {
+    img: "_MG_9223.jpg",
     class: " ",
   },
   {
@@ -334,6 +338,26 @@ export const gallery = [
     class: " ",
   },
   {
+    img: "IMG_1573.jpg",
+    class: " ",
+  },
+  {
+    img: "53496683330_25b154b4be_o.jpg",
+    class: " ",
+  },
+  {
+    img: "IMG_1723.png",
+    class: " ",
+  },
+  {
+    img: "53496561769_33882755bc_o.jpg",
+    class: " ",
+  },
+  {
+    img: "IMG_1741.jpg",
+    class: " ",
+  },
+  {
     img: "53399561638_c911f1a763_o.jpg",
     class: " ",
   },
@@ -342,35 +366,11 @@ export const gallery = [
     class: " ",
   },
   {
-    img: "53496561769_33882755bc_o.jpg",
-    class: " ",
-  },
-  {
-    img: "53496683330_25b154b4be_o.jpg",
-    class: " ",
-  },
-  {
     img: "IMG_1500.jpg",
     class: " ",
   },
   {
     img: "IMG_1555.jpg",
-    class: " ",
-  },
-  {
-    img: "IMG_1573.jpg",
-    class: " ",
-  },
-  {
-    img: "IMG_1723.png",
-    class: " ",
-  },
-  {
-    img: "IMG_1741.jpg",
-    class: " ",
-  },
-  {
-    img: "NIK_3118 (1).jpg",
     class: " ",
   },
 ];
