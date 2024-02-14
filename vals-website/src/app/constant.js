@@ -226,6 +226,16 @@ const notUsed = [
 
 export const gallery = [
   {
+    img: "new 1.jpg",
+    class: " ",
+  },{
+    img: "new 2.jpg",
+    class: " ",
+  },{
+    img: "new 3.jpg",
+    class: " ",
+  },
+  {
     img: "_MG_0237.jpg",
     class: " ",
   },
