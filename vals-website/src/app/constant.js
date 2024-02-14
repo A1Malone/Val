@@ -318,7 +318,7 @@ export const gallery = [
     class: " ",
   },
   {
-    img: "_MG_9223.jpg",
+    img: "_MG_9223.png",
     class: " ",
   },
   {
