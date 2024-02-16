@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Nav />
       {/* i removed bg-cover  */}
-      <div className="min-h-screen bg-[length:100%_50%] bg-no-repeat bg-fixed bg-center lg:bg-[length:100%] " style={{backgroundImage: `url(${mainImg})`}}></div>
+      <div className="min-h-screen bg-[length:100%_50%] bg-no-repeat bg-center lg:bg-contain" style={{backgroundImage: `url(${mainImg})`}}></div>
           
       <div className="gap-0 columns-1 md:columns-2">
         
