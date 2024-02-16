@@ -8,7 +8,7 @@ const mainImg = "/assets/landingImg.png";
 export default function Home() {
   return (
     <>
-    <div className="absolute" >
+    <div className="relative lg:absolute" >
       <Nav/>
 
     </div>
