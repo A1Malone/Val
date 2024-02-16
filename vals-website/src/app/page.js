@@ -8,7 +8,7 @@ const mainImg = "/assets/landingImg.png";
 export default function Home() {
   return (
     <>
-      <Nav />
+      <Nav className="absolute" />
       {/* i removed bg-cover  */}
       <div className="min-h-screen bg-[length:100%_50%] bg-no-repeat bg-center lg:bg-contain" style={{backgroundImage: `url(${mainImg})`}}></div>
           
