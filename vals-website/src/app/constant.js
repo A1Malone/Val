@@ -228,11 +228,49 @@ export const gallery = [
   {
     img: "new 1.jpg",
     class: " ",
-  },{
+  },
+  {
     img: "new 2.jpg",
     class: " ",
-  },{
+  },
+  {
     img: "new 3.jpg",
+    class: " ",
+  },
+  {
+    img: "new 4.jpg",
+    class: " ",
+  },
+  {
+    img: "new 5.jpg",
+    class: " ",
+  },
+  {
+    img: "new 6.jpg",
+    class: " ",
+  },
+  {
+    img: "new 7.jpg",
+    class: " ",
+  },
+  {
+    img: "new 8.jpg",
+    class: " ",
+  },
+  {
+    img: "new 9.jpg",
+    class: " ",
+  },
+  {
+    img: "new 10.jpg",
+    class: " ",
+  },
+  {
+    img: "new 11.jpg",
+    class: " ",
+  },
+  {
+    img: "IMG_1723.png",
     class: " ",
   },
   {
@@ -356,7 +394,7 @@ export const gallery = [
     class: " ",
   },
   {
-    img: "IMG_1723.png",
+    img: "IMG_1555.jpg",
     class: " ",
   },
   {
@@ -377,10 +415,6 @@ export const gallery = [
   },
   {
     img: "IMG_1500.jpg",
-    class: " ",
-  },
-  {
-    img: "IMG_1555.jpg",
     class: " ",
   },
 ];
