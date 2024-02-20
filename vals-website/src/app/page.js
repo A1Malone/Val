@@ -2,7 +2,7 @@ import Nav from "./components/nav";
 import Footer from "./components/footer"
 import Grid from "./components/grid";
 import { projects } from "./constant";
-const mainImg = "/assets/landingImg.png";
+const mainImg = "/assets/Portfolio_and_Website_Cover.png";
 
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
 
     </div>
       {/* i removed bg-cover  */}
-      <div className="min-h-screen bg-[length:100%_50%] bg-no-repeat bg-center lg:bg-contain" style={{backgroundImage: `url(${mainImg})`}}></div>
+      <div className="min-h-screen bg-[length:100%_45%] bg-no-repeat bg-center md:bg-[length:100%_100%] lg:bg-contain" style={{backgroundImage: `url(${mainImg})`}}></div>
           
       <div className="gap-0 columns-1 md:columns-2">
         
