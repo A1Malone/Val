@@ -88,5 +88,15 @@ font-family: Bahn !important;
   /*width: 50%;*/
   max-height: 100%;
   /*margin: auto 0;*/
-  height: 100%;
+  height: auto;
 }
+
+@media (min-width: 1024px) { 
+  .galleryImg {
+    display: block;
+    /*width: 50%;*/
+    max-height: 100%;
+    /*margin: auto 0;*/
+    height: 100%;
+  }
+ }
