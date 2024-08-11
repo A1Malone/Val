@@ -1,15 +1,5 @@
 export const projects = [
   {
-    mainImg: "1.jpg",
-    imgList: ["1.jpg", "2.jpg", "3.png"],
-    name: "STEDMAN GALLERY THESIS SHOW",
-    link: "stedman-gallery-thesis-show",
-    description:
-      "The Stedman Gallery thesis portrays works of the graduating seniors at Rutgers Camden. The show’s theme is pushing the boundaries and staying “Out of Line.” This work represents each senior’s project through shapes, as shapes are the foundation of all art. Art must push forward past the foundations and out of the box.",
-    left: "live-laugh-die",
-    right: "philly-faces"
-  },
-  {
     mainImg: "v1.mp4",
     imgList: [
       "v1.mp4",
@@ -56,6 +46,16 @@ export const projects = [
       left: "stedman-gallery-thesis-show",
       right: "the-fold"
     },
+  {
+    mainImg: "1.jpg",
+    imgList: ["1.jpg", "2.jpg", "3.png"],
+    name: "STEDMAN GALLERY THESIS SHOW",
+    link: "stedman-gallery-thesis-show",
+    description:
+      "The Stedman Gallery thesis portrays works of the graduating seniors at Rutgers Camden. The show’s theme is pushing the boundaries and staying “Out of Line.” This work represents each senior’s project through shapes, as shapes are the foundation of all art. Art must push forward past the foundations and out of the box.",
+    left: "live-laugh-die",
+    right: "philly-faces"
+  },
   {
     mainImg: "1.png",
     imgList: ["1.png", "2.png", "3.png","4.png"],
