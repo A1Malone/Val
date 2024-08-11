@@ -19,7 +19,7 @@ export default function Project(props) {
               img.slice(img.length - 4) == ".mp4" ? (
                 <video autoPlay loop muted playsInline className="w-full mb-[96px]">
                   <source
-                    src={`/assets/portfolio/${props.name}/${img}`}
+                    src={`/assets/portfolio/${props.projectN}/${img}`}
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
@@ -28,7 +28,7 @@ export default function Project(props) {
                 <img
                   key={i}
                   className="w-full lg:w-1/2 mb-[96px]"
-                  src={`/assets/portfolio/${props.name}/${img}`}
+                  src={`/assets/portfolio/${props.projectN}/${img}`}
                 />
               )
             )}

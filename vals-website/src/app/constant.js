@@ -43,7 +43,7 @@ export const projects = [
     link: "philly-faces",
     description:
       "Philly Faces is a rebrand of Philly Phaces. This non-profit organization helps children and families of those in need, particularly those with Congenital Facial Abnormalities.",
-      left: "stedman-gallery-thesis-show",
+      left: "live-laugh-die",
       right: "loading-screens"
     },
     {
@@ -119,13 +119,59 @@ export const projects = [
         },
   {
     mainImg: "1.jpg",
-    imgList: ["1.jpg", "2.jpg", "3.png"],
+    imgList: ["1.jpg", "2.jpg", "3.png","5.jpg","6.jpg","7.jpg","8.jpg"],
     name: "STEDMAN GALLERY THESIS SHOW",
     link: "stedman-gallery-thesis-show",
     description:
       "The Stedman Gallery thesis portrays works of the graduating seniors at Rutgers Camden. The show’s theme is pushing the boundaries and staying “Out of Line.” This work represents each senior’s project through shapes, as shapes are the foundation of all art. Art must push forward past the foundations and out of the box.",
-    left: "live-laugh-die",
-    right: "philly-faces"
+    left: "alumni-weekend-drafts",
+    right: "crispy-delight"
+  },
+  {
+    mainImg: "1.png",
+    imgList: ["1.png", "2.jpg"],
+    name: "CRISPY DELIGHT",
+    link: "crispy-delight",
+    description: "Crispy Delight is a small, family-owned restaurant that sells quality chicken. Located in New Hampshire, their food is made to feed many families around town.",
+    left: "stedman-gallery-thesis-show",
+    right: "princeton-day-school-pds"
+  },
+  {
+    mainImg: "1.png",
+    imgList: ["1.png", "2.png", "3.png","4.png","5.png"],
+    name: "PRINCETON DAY SCHOOL PDS",
+    link: "princeton-day-school-pds",
+    description: "This outline is an official outline used for the Princeton Day School Powerpoint presentations. Each slide is formatted to follow the font “Lato” as the primary font.",
+    left: "crispy-delight",
+    right: "imagine-the-possinilities-pds"
+  },
+  {
+    mainImg: "1.png",
+    imgList: ["1.png", "2.png", "3.png","4.png"],
+    name: "IMAGINE THE POSSIBILITIES PDS",
+    link: "imagine-the-possinilities-pds",
+    description: "Imagine the Possibilities is an annual school-wide program that brings authors, illustrators, and poets to Princeton Day School to work directly with students across disciplines and grade levels. This poster series was used to promote engagement with guests. A large signed poster was also used as a prize to anyone that donated to help the school.",
+    left: "princeton-day-school-pds",
+    right: "125-100-mfs-pcd-anniversary"
+  },
+  {
+    mainImg: "1.png",
+    imgList: ["1.png", "2.png"],
+    truename: "125/100 MFS PCD ANNIVERSARY",
+    name: "125-100 MFS PCD ANNIVERSARY",
+    link: "125-100-mfs-pcd-anniversary",
+    description: "This logo was designed to commemorate the 100th and 125th anniversaries of Miss Fine’s School and Princeton Country Day. The schools merged to form what is now called Princeton Day School.",
+    left: "imagine-the-possinilities-pds",
+    right: "njsiaa-state-chapions-tee"
+  },
+  {
+    mainImg: "1.png",
+    imgList: ["1.png"],
+    name: "NJSIAA STATE CHAMPIONS TEE",
+    link: "njsiaa-state-chapions-tee",
+    description: "This t-shirt was made for the girls soccer team at PDS who won the NJSIAA State Champions of 2024. “Take the Risk or Lose the Chance” are the words they live by.",
+    left: "125-100-mfs-pcd-anniversary",
+    right: "the-fold"
   },
   {
     mainImg: "1.png",
@@ -134,10 +180,52 @@ export const projects = [
     link: "the-fold",
     description:
       "The Fold is a display typeface made to be expressive due to its thick strokes. Its unique shape makes it noticeable and helps attract the viewer’s eye.",
-      left: "philly-faces",
-      right: "loading-screens"
+      left: "njsiaa-state-chapions-tee",
+      right: "culture-connect"
   },
   {
+    mainImg: "1.png",
+    imgList: ["1.png", "2.png"],
+    name: "CULTURE CONNECT",
+    link: "culture-connect",
+    description:
+      "Culture Connect is a brand with the purpose of helping immigrants adapt to America. Volunteers help immigrants with difficult tasks such as filing for taxes, filling out documents, and even learning how to understand English.",
+      left: "the-fold",
+      right: "live-laugh-die"
+    },
+    {
+      mainImg: "1.jpg",
+      imgList: [
+        "1.jpg",
+        "2.jpg",
+        "3.jpg",
+        "4.jpg",
+        "5.jpg",
+        "6.jpg",
+        "7.jpg",
+        "8.jpg",
+        "9.jpg",
+        "10.jpg",
+        "11.jpg",
+        "12.jpg",
+        "13.jpg",
+        "14.jpg",
+        "15.jpg",
+        "16.jpg",
+        "17.jpg",
+        "18.jpg",
+        "19.jpg",
+        "20.jpg",
+        "21.jpg",
+      ],
+      name: "LIVE LAUGH DIE",
+      link: "live-laugh-die",
+      description:
+        "This process book derives from a personal narrative love story called Live Laugh Die. With the use of text, scale, and imagery, this process book shows how a simple text can be transformed into various works.",
+        left: "culture-connect",
+        right: "philly-faces"
+      },
+  /*{
     mainImg: "1.jpg",
     imgList: ["1.jpg", "2.jpg", "3.jpg"],
     name: "THE SCIENCE OF SLEEP",
@@ -146,49 +234,7 @@ export const projects = [
       "The Science of Sleep is a story of how a young man learns to cope with the death of his father. He becomes obsessed with his imagination and is imprisoned by his own mind. This redesign captures the image of his solitary mind and alternate reality.",
       left: "loading-screens",
       right: "the-method-of-sampling"
-    },
-  {
-    mainImg: "1.png",
-    imgList: ["1.png", "2.png"],
-    name: "CULTURE CONNECT",
-    link: "culture-connect",
-    description:
-      "Culture Connect is a brand with the purpose of helping immigrants adapt to America. Volunteers help immigrants with difficult tasks such as filing for taxes, filling out documents, and even learning how to understand English.",
-      left: "waves",
-      right: "live-laugh-die"
-    },
-  {
-    mainImg: "1.jpg",
-    imgList: [
-      "1.jpg",
-      "2.jpg",
-      "3.jpg",
-      "4.jpg",
-      "5.jpg",
-      "6.jpg",
-      "7.jpg",
-      "8.jpg",
-      "9.jpg",
-      "10.jpg",
-      "11.jpg",
-      "12.jpg",
-      "13.jpg",
-      "14.jpg",
-      "15.jpg",
-      "16.jpg",
-      "17.jpg",
-      "18.jpg",
-      "19.jpg",
-      "20.jpg",
-      "21.jpg",
-    ],
-    name: "LIVE LAUGH DIE",
-    link: "live-laugh-die",
-    description:
-      "This process book derives from a personal narrative love story called Live Laugh Die. With the use of text, scale, and imagery, this process book shows how a simple text can be transformed into various works.",
-      left: "culture-connect",
-      right: "stedman-gallery-thesis-show"
-    },
+    },*/
 ];
 
 

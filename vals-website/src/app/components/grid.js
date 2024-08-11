@@ -15,14 +15,14 @@ export default function Grid(props) {
               className="gridimg"
             >
               <source
-                src={`/assets/portfolio/${props.name}/${props.img}`}
+                src={`/assets/portfolio/${props.filename}/${props.img}`}
                 type="video/mp4"
               />
               Your browser does not support the video tag.
             </video> :
           <img
             className="gridimg"
-            src={`/assets/portfolio/${props.name}/${props.img}`}
+            src={`/assets/portfolio/${props.filename}/${props.img}`}
           />
             
           }

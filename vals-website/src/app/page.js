@@ -20,7 +20,7 @@ export default function Home() {
         
       {
         projects.map((nProject, i) => (
-          <Grid img={nProject.img || nProject.mainImg } name={nProject.name} link={`/portfolio/page/${nProject.link}`} key={i} />
+          <Grid img={nProject.img || nProject.mainImg } name={nProject.truename || nProject.name} filename={nProject.name} link={`/portfolio/page/${nProject.link}`} key={i} />
         ))
       }
       </div>
