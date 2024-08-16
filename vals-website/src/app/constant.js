@@ -135,9 +135,10 @@ export const projects = [
       {
       img: "1.png",
       class:  "lg:w-100"
+      
      }
   ],
-    imgList: ["2.jpg"],
+    imgList: ["2.JPG"],
     name: "CRISPY DELIGHT",
     link: "crispy-delight",
     description: "Crispy Delight is a small, family-owned restaurant that sells quality chicken. Located in New Hampshire, their food is made to feed many families around town.",
