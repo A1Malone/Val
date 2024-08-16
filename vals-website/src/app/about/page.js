@@ -33,7 +33,7 @@ export default function Home() {
               <a
                 href="/Resume.pdf"
                 target="_blank"
-                className="font-semibold text-xl lg:leading-loose lg:text-xl"
+                className="font-semibold text-xl lg:leading-loose lg:text-xl text-center rounded-full bg-transparent  hover:bg-slate-900 hover:text-white border border-black hover:border-transparent py-1 px-2 "
               >
                 View My Resume{" "}
               </a>
