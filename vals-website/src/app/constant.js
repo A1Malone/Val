@@ -144,8 +144,9 @@ export const projects = [
     right: "princeton-day-school-pds"
   },
   {
-    mainImg: "1.png",
+    mainImg: "4.png",
     imgList: ["1.png", "2.png", "3.png","4.png","5.png"],
+    truename: "PRINCETON DAY SCHOOL (PDS)",
     name: "PRINCETON DAY SCHOOL PDS",
     link: "princeton-day-school-pds",
     description: "This outline is an official outline used for the Princeton Day School Powerpoint presentations. Each slide is formatted to follow the font “Lato” as the primary font.",
@@ -374,7 +375,7 @@ export const gallery = [
     class: " ",
   },
   {
-    img: "_MG_3260.jpg",
+    img: "img-12.jpg",
     class: " ",
   },
   {
