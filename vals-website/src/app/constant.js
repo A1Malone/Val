@@ -121,6 +121,7 @@ export const projects = [
   {
     mainImg: "3.png",
     imgList: ["1.jpg", "2.jpg", "3.png","5.jpg","6.jpg","7.jpg","8.jpg"],
+    truename: "STEDMAN GALLERY " + " " + " " + " " + " " + " THESIS SHOW",
     name: "STEDMAN GALLERY THESIS SHOW",
     link: "stedman-gallery-thesis-show",
     description:
