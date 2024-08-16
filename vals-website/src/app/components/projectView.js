@@ -1,5 +1,6 @@
 export default function Project(props) {
   const imageList = props.imgList;
+  const custImgClass = props.customimgclass;
   return (
     <>
       <div className="w-screen px-7">
@@ -15,6 +16,15 @@ export default function Project(props) {
 
           </div>
           <div className="grow px-2 lg:ml-5">
+            {
+              custImgClass.map((img,i) => 
+                <img
+                    key={i}
+                    className={`w-full mb-[96px] ${  img.class}`}
+                    src={`/assets/portfolio/${props.projectN}/${img.img}`} 
+            />
+              )
+            }
             {imageList.map((img, i) =>
               img.slice(img.length - 4) == ".mp4" ? (
                 <video autoPlay loop muted playsInline className="w-full mb-[96px]">
@@ -27,8 +37,8 @@ export default function Project(props) {
               ) : (
                 <img
                   key={i}
-                  className="w-full lg:w-1/2 mb-[96px]"
-                  src={`/assets/portfolio/${props.projectN}/${img}`}
+                  className="w-full mb-[96px] lg:w-1/2"
+                  src={`/assets/portfolio/${props.projectN}/${img}`} 
                 />
               )
             )}
