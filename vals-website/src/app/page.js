@@ -15,9 +15,17 @@ export default function Home() {
     </div>
     <section className="h-screen">
       <div className="flex items-center h-screen w-screen absolute">
-      <h1 className="text-7xl font-bold mx-auto lg:text-9xl">VAL BUI</h1>
+      <h1 className="text-7xl font-bold mx-auto lg:text-9xl fadeInUp-animation">VAL BUI</h1>
       </div>
-      <div className="flex items-end h-screen absolute"><p className="mb-10 ml-5 lg:mb-20 lg:ml-40">Graphic Design | Photography</p></div>
+      <div className="flex items-end h-screen absolute">
+        <div className="mb-10 ml-5 lg:mb-20 lg:ml-40">
+          <div className="flex flex-row">
+            <div className="fadeInUp-animation-slow"><p className="fadeInUp-animation">Graphic Design</p></div>
+            <div className="mx-2"> | </div>
+            <div className="fadeInUp-animation-slow"><p className="fadeInUp-animation">Graphic Design</p></div>
+            </div>
+          </div>
+        </div>
     </section>
     <section>
 

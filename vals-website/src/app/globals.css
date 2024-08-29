@@ -21,6 +21,25 @@
   src: url('../../public/Bahnschrift\ Regular.ttf');
 }
 
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1.5s fadeInUp;
+}
+
+.fadeInUp-animation-slow {
+  animation: 2.3s fadeInUp;
+}
+
 
 body {
   background-color:  #e5e5e5;
