@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import React, { useState } from 'react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
@@ -19,7 +19,7 @@ export default function Nav() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-      <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+      <div className="flex items-start justify-between p-8">
                   
                   <Link href="/">
                   <div className="flex flex-shrink-0 items-center">
@@ -36,20 +36,19 @@ export default function Nav() {
                   </div>
   
                 </Link>
-    <div onClick={() => setShowModal(true)}><Bars3Icon className="block h-6 w-6" aria-hidden="true" /></div>
+    <div onClick={() => setShowModal(true)}><Bars3Icon className="block h-20 w-20" aria-hidden="true" /></div>
     
                   </div>
 
-      {showModal ? (
         <>
           <div
-            className="h-screen justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+            className={showModal ? `h-screen justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none transition duration-300` : 'hidden'}
           >
             <div className="relative w-screen h-screen">
               {/*content*/}
-              <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full h-full bg-white outline-none focus:outline-none">
+              <div className="shadow-lg relative flex flex-col w-full h-full bg-[#6272B6]">
                 {/*header*/}
-                <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                <div className="flex items-start justify-between p-8">
                   
                 <Link href="/">
                 <div className="flex flex-shrink-0 items-center">
@@ -66,9 +65,9 @@ export default function Nav() {
                 </div>
 
               </Link>
-              <div onClick={() => setShowModal(false)} className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+              <div onClick={() => setShowModal(false)} >
 
-              <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+              <XMarkIcon className="block h-20 w-20" aria-hidden="true" />
               </div>
                 </div>
                 {/*body*/}
@@ -78,14 +77,14 @@ export default function Nav() {
                       
                 {navigation.map((item) => (
                       <Link key={item.name} href={`${item.href}`}
-                      className='group text-5xl  lg:text-9xl uppercase font bold text-sky-600 transition duration-300'
+                      className='text-5xl  lg:text-9xl uppercase font bold text-white hover:text-[#231F20] hover:text-[20px] transition duration-700'
                       /*
                       className={classNames(
                         item.current ? 'bg-gray-900 text-stone-950' : 'text-stone-950 hover:bg-gray-700 hover:text-white',
                         'rounded-md px-3 py-2 text-lg font-medium'
                       )}*/
                       aria-current={item.current ? 'page' : undefined}
-                      >{item.name}<span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></Link>
+                      >{item.name}</Link>
                     ))}
                     </div>
 
@@ -93,15 +92,15 @@ export default function Nav() {
                   <div className='mt-auto'>
                     <div className='flex flex-col-reverse lg:flex-row'>
                       <div className='flex flex-col ml-2 lg:ml-20 mr-5'>
-                        <div className='group text-lg lg:text-xl text-black-600 transition duration-300'><a href='/'>INSTAGRAM</a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></div>
-                        <div className='group text-lg lg:text-xl text-black-600 transition duration-300'><a href='/'>BEHANCE</a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></div>
-                        <div className='group text-lg lg:text-xl text-black-600 transition duration-300'><a href='/'>LINKEDIN</a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></div>
+                        <div className='group text-lg lg:text-xl text-[#231F20] transition duration-300 '><a className=' flex flex-row' href='/'>INSTAGRAM  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
+                        <div className='group text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='/'>BEHANCE  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
+                        <div className='group text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='/'>LINKEDIN  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
                       </div>
-                      <div className='flex flex-col ml-2 mb-4 lg:mb-0 lg:ml-10'>
-                        <a href="mailto:valbuiofficial@gmail.com" className="font-semibold text-xl lg:leading-loose lg:text-xl">
+                      <div className='flex flex-col mt-auto ml-2 mb-4  lg:ml-10'>
+                        <a href="mailto:valbuiofficial@gmail.com" className="font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">
                           valbuiofficial@gmail.com
                         </a>
-                          <p>+1 (480) 229 3403</p>
+                          <p className="font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">+1 (480) 229 3403</p>
                       </div>
                   </div>
                   </div>
@@ -126,9 +125,7 @@ export default function Nav() {
               </div>
             </div>
           </div>
-          <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
-      ) : null}
     </>
   )
 }
