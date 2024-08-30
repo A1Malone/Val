@@ -61,6 +61,9 @@
 .fadeInUp-animation-slow {
   animation: 2.3s fadeInUp;
 }
+.fadeInUp-animation-slower {
+  animation: 2.8s fadeInUp;
+}
 
 
 body {
