@@ -17,7 +17,7 @@ export default function Home() {
           <div className="flex flex-row text-xl">
             <div className="fadeInUp-animation-slow"><p className="fadeInUp-animation text-hmpgBauk">Graphic Design</p></div>
             <div className="mx-2"> | </div>
-            <div className="fadeInUp-animation-slow"><p className="fadeInUp-animation text-hmpgBauk">Graphic Design</p></div>
+            <div className="fadeInUp-animation-slow"><p className="fadeInUp-animation text-hmpgBauk">Photography</p></div>
             </div>
           </div>
         </div>
