@@ -72,13 +72,13 @@ export default function Nav() {
               </div>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto">
-                  <div className='flex justify-end'>
+                <div className="relative p-6 h-screen flex flex-col items-stretch">
+                  <div className='ml-auto'>
                     <div className='flex flex-col'>
                       
                 {navigation.map((item) => (
                       <Link key={item.name} href={`${item.href}`}
-                      className='group text-9xl uppercase font bold text-sky-600 transition duration-300'
+                      className='group text-5xl  lg:text-9xl uppercase font bold text-sky-600 transition duration-300'
                       /*
                       className={classNames(
                         item.current ? 'bg-gray-900 text-stone-950' : 'text-stone-950 hover:bg-gray-700 hover:text-white',
@@ -90,8 +90,23 @@ export default function Nav() {
                     </div>
 
                   </div>
+                  <div className='mt-auto'>
+                    <div className='flex flex-col-reverse lg:flex-row'>
+                      <div className='flex flex-col ml-2 lg:ml-20 mr-5'>
+                        <div className='group text-lg lg:text-xl text-black-600 transition duration-300'><a href='/'>INSTAGRAM</a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></div>
+                        <div className='group text-lg lg:text-xl text-black-600 transition duration-300'><a href='/'>BEHANCE</a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></div>
+                        <div className='group text-lg lg:text-xl text-black-600 transition duration-300'><a href='/'>LINKEDIN</a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></div>
+                      </div>
+                      <div className='flex flex-col ml-2 mb-4 lg:mb-0 lg:ml-10'>
+                        <a href="mailto:valbuiofficial@gmail.com" className="font-semibold text-xl lg:leading-loose lg:text-xl">
+                          valbuiofficial@gmail.com
+                        </a>
+                          <p>+1 (480) 229 3403</p>
+                      </div>
+                  </div>
+                  </div>
                 </div>
-                {/*footer*/}
+                {/*footer
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
                     className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -107,7 +122,7 @@ export default function Nav() {
                   >
                     Save Changes
                   </button>
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>
