@@ -26,7 +26,7 @@ export default function Home() {
           <Nav/>
         </div>
     </section>
-    <section className="h-[50rem] flex justify-content-center">
+    <section className="h-[30rem] lg:h-[50rem] flex justify-content-center">
       <div className="mx-auto my-auto w-4/5">
         
       <p className="text-left text-georgia w-[100%] text-4xl lg:w-[36%] lg:text-4xl">
@@ -39,7 +39,7 @@ export default function Home() {
     </section>
     
     <hr class=" mx-auto w-4/5 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-    <h2 className="uppercase text-bold text-hmpgBauk my-[30%] lg:my-[10%] text-6xl lg:text-8xl text-center">Projects</h2>
+    <h2 className="uppercase text-bold text-hmpgBauk my-[20%] lg:my-[10%] text-6xl lg:text-8xl text-center">Projects</h2>
       <div className="gap-0 columns-1 md:columns-2">
       {
         projects.map((nProject, i) => (
