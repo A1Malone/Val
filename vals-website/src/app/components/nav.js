@@ -91,7 +91,7 @@ export default function Nav() {
                   </div>
                   <div className='mt-auto'>
                     <div className='flex flex-col-reverse lg:flex-row'>
-                      <div className={showModal ? ` md:flex-row fadeInUp-animation-slower flex flex-col ml-2 lg:ml-20 mr-5` : `flex flex-col ml-2 lg:ml-20 mr-5`}>
+                      <div className={showModal ? ` md:flex-row lg:flex-col fadeInUp-animation-slower flex flex-col ml-2 lg:ml-20 mr-5` : `flex flex-col ml-2 lg:ml-20 mr-5`}>
                         <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300 '><a className=' flex flex-row' href='https://www.instagram.com/valbuiofficial/'>INSTAGRAM  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
                         <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='https://www.behance.net/ValBuiOfficial'>BEHANCE  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
                         <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='https://www.linkedin.com/in/val-bui/'>LINKEDIN  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
