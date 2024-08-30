@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.modal {
+  transition: opacity 0.25s ease;
+  }
+  body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+  }
+  .opacity-95 {opacity: .95;}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
