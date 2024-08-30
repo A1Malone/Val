@@ -27,14 +27,18 @@ export default function Home() {
           </div>
         </div>
     </section>
-    <section>
+    <section className="h-full">
+
+      <p className="text-left w-[25%] text-4xl">
+      Val Bui is a multidisciplinary Graphic Designer & Photographer. Born and raised in New Jersey,
+      USA, she is committed to
+      exceeding expectations. 
+            </p>
 
     </section>
-      {/* i removed bg-cover  */}
-      <div className="min-h-screen bg-[length:100%_50%] bg-no-repeat bg-center md:bg-[length:100%_100%] lg:bg-contain" style={{backgroundImage: `url(${mainImg})`}}></div>
-          
+    
+    <h2 className="uppercase text-bold  my-[10%] text-8xl text-center">Projects</h2>
       <div className="gap-0 columns-1 md:columns-2">
-        
       {
         projects.map((nProject, i) => (
           <Grid img={nProject.img || nProject.mainImg } name={nProject.truename || nProject.name} filename={nProject.name} link={`/portfolio/page/${nProject.link}`} key={i} />
