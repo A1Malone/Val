@@ -26,10 +26,10 @@ export default function Home() {
           <Nav/>
         </div>
     </section>
-    <section className="h-96 flex justify-content-center">
-      <div className="mx-auto w-4/5">
+    <section className="h-[50rem] flex justify-content-center">
+      <div className="mx-auto my-auto w-4/5">
         
-      <p className="text-left w-[36%] text-4xl">
+      <p className="text-left w-[100%] text-4xl lg:w-[36%] lg:text-4xl">
         Val Bui is a multidisciplinary Graphic Designer & Photographer. Born and raised in New Jersey,
         USA, she is committed to
         exceeding expectations. 
@@ -39,7 +39,7 @@ export default function Home() {
     </section>
     
     <hr class=" mx-auto w-4/5 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-    <h2 className="uppercase text-bold  my-[10%] text-8xl text-center">Projects</h2>
+    <h2 className="uppercase text-bold  my-[30%] lg:my-[10%] text-6xl lg:text-8xl text-center">Projects</h2>
       <div className="gap-0 columns-1 md:columns-2">
       {
         projects.map((nProject, i) => (
