@@ -36,7 +36,7 @@ export default function Nav() {
                   </div>
   
                 </Link>
-    <div onClick={() => setShowModal(true)}><Bars3Icon className="block h-20 w-20" aria-hidden="true" /></div>
+    <div className='cursor-pointer' onClick={() => setShowModal(true)}><Bars3Icon className="block h-20 w-20" aria-hidden="true" /></div>
     
                   </div>
 
@@ -65,15 +65,15 @@ export default function Nav() {
                 </div>
 
               </Link>
-              <div onClick={() => setShowModal(false)} >
+              <div className='cursor-pointer' onClick={() => setShowModal(false)} >
 
-              <XMarkIcon className="block h-20 w-20" aria-hidden="true" />
+              <XMarkIcon className="block h-20 w-20 cursor-pointer" aria-hidden="true" />
               </div>
                 </div>
                 {/*body*/}
                 <div className="relative p-6 h-screen flex flex-col items-stretch">
-                  <div className='ml-auto'>
-                    <div className='flex flex-col'>
+                  <div className='ml-auto mr-[5%]'>
+                    <div className='flex flex-col text-right'>
                       
                 {navigation.map((item) => (
                       <Link key={item.name} href={`${item.href}`}
