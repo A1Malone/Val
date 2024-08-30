@@ -27,12 +27,14 @@ export default function Home() {
         </div>
     </section>
     <section className="h-96 flex justify-content-center">
-
-      <p className="text-left w-[25%] text-4xl">
-      Val Bui is a multidisciplinary Graphic Designer & Photographer. Born and raised in New Jersey,
-      USA, she is committed to
-      exceeding expectations. 
-            </p>
+      <div className="mx-auto w-4/5">
+        
+      <p className="text-left w-[36%] text-4xl">
+        Val Bui is a multidisciplinary Graphic Designer & Photographer. Born and raised in New Jersey,
+        USA, she is committed to
+        exceeding expectations. 
+      </p>
+      </div>
 
     </section>
     
