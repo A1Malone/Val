@@ -26,7 +26,7 @@ export default function Home() {
           <Nav/>
         </div>
     </section>
-    <section className="h-full">
+    <section className="h-96">
 
       <p className="text-left w-[25%] text-4xl">
       Val Bui is a multidisciplinary Graphic Designer & Photographer. Born and raised in New Jersey,
@@ -36,6 +36,7 @@ export default function Home() {
 
     </section>
     
+    <hr class=" mx-auto w-4/5 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
     <h2 className="uppercase text-bold  my-[10%] text-8xl text-center">Projects</h2>
       <div className="gap-0 columns-1 md:columns-2">
       {
