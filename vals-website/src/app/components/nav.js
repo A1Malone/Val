@@ -19,34 +19,27 @@ export default function Nav() {
   const [showModal, setShowModal] = useState(false);
   return (
     <>
-    <div className="max-w-7xl px-2 lg:py-8 sm:px-6 lg:px-8">
-    <div className="relative flex h-20 items-center justify-between">
-    <Link href="/">
-                <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="block h-16 lg:h-18 lg:hidden"
-                    src="/assets/signature-C.png"
-                    alt="Your Company"
-                  />
-                  <img
-                    className="hidden h-14 lg:h-20 lg:block"
-                    src="/assets/signature-C.png"
-                    alt="Your Company"
-                  />
-                </div>
-
-    </Link>
+      <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                  
+                  <Link href="/">
+                  <div className="flex flex-shrink-0 items-center">
+                    <img
+                      className="block h-16 lg:h-18 lg:hidden"
+                      src="/assets/signature-C.png"
+                      alt="Your Company"
+                    />
+                    <img
+                      className="hidden h-14 lg:h-20 lg:block"
+                      src="/assets/signature-C.png"
+                      alt="Your Company"
+                    />
+                  </div>
+  
+                </Link>
     <div onClick={() => setShowModal(true)}><Bars3Icon className="block h-6 w-6" aria-hidden="true" /></div>
     
-    </div>
-    </div>
-      <button
-        className="bg-pink-500 text-white active:bg-pink-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-        type="button"
-        onClick={() => setShowModal(true)}
-      >
-        Open large modal
-      </button>
+                  </div>
+
       {showModal ? (
         <>
           <div
@@ -80,6 +73,9 @@ export default function Nav() {
                 </div>
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
+                  <div className='flex justify-end'>
+                    <div className='flex flex-column'>
+                      
                 {navigation.map((item) => (
                       <Link key={item.name} href={`${item.href}`}
                       className='group text-sky-600 transition duration-300'
@@ -91,6 +87,9 @@ export default function Nav() {
                       aria-current={item.current ? 'page' : undefined}
                       >{item.name}<span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></Link>
                     ))}
+                    </div>
+
+                  </div>
                 </div>
                 {/*footer*/}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
