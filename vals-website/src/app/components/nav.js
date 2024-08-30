@@ -74,11 +74,11 @@ export default function Nav() {
                 {/*body*/}
                 <div className="relative p-6 flex-auto">
                   <div className='flex justify-end'>
-                    <div className='flex flex-column'>
+                    <div className='flex flex-col'>
                       
                 {navigation.map((item) => (
                       <Link key={item.name} href={`${item.href}`}
-                      className='group text-sky-600 transition duration-300'
+                      className='group text-9xl uppercase font bold text-sky-600 transition duration-300'
                       /*
                       className={classNames(
                         item.current ? 'bg-gray-900 text-stone-950' : 'text-stone-950 hover:bg-gray-700 hover:text-white',
