@@ -30,17 +30,17 @@
   src: url('../../public/Bahnschrift\ Regular.ttf');
 }
 
-@keyframes menufadeUp {
-  100% {
-    transform: translateY(0%);
-  }
+@keyframes menufadedown {
   0% {
-    transform: translateY(100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
   }
 }
 
 .menufadeUp-animation {
-  animation: 1.5s fadeInUp;
+  animation: 1.5s menufadedown;
 }
 
 @keyframes fadeInUp {
