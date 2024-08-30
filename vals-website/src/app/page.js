@@ -8,11 +8,6 @@ const mainImg = "/assets/Portfolio_and_Website_Cover.png";
 export default function Home() {
   return (
     <>
-    <Nav/>
-    {/*<div className="absolute inset-x-0" >
-      <Nav/>
-
-    </div>*/}
     <section className="h-screen">
       <div className="flex items-center h-screen w-screen absolute">
       <h1 className="text-7xl font-bold mx-auto lg:text-9xl fadeInUp-animation">VAL BUI</h1>
@@ -25,6 +20,10 @@ export default function Home() {
             <div className="fadeInUp-animation-slow"><p className="fadeInUp-animation">Graphic Design</p></div>
             </div>
           </div>
+        </div>
+        
+        <div className="absolute inset-x-0" >
+          <Nav/>
         </div>
     </section>
     <section className="h-full">
