@@ -29,6 +29,25 @@
   font-family: Bahn;
   src: url('../../public/Bahnschrift\ Regular.ttf');
 }
+@font-face {
+  font-family: hmpgBauk;
+  src: url('../../public/HomepagebaukastenBold.ttf');
+}
+
+.text-hmpgBauk {
+  font-family:hmpgBauk !important;
+
+}
+
+@font-face {
+  font-family: georgia;
+  src: url('../../public/georgia.ttf');
+}
+
+.text-georgia {
+  font-family:georgia !important;
+
+}
 
 @keyframes menufadedown {
   0% {

@@ -77,7 +77,7 @@ export default function Nav() {
                       
                 {navigation.map((item) => (
                       <Link key={item.name} href={`${item.href}`}
-                      className={showModal ? `fadeInUp-animation-slower text-5xl  lg:text-9xl uppercase font bold text-white hover:text-[#231F20] transition duration-700` : `text-5xl  lg:text-9xl uppercase font bold text-white hover:text-[#231F20] transition duration-700`}
+                      className={showModal ? `fadeInUp-animation-slower text-5xl text-hmpgBauk lg:text-9xl uppercase font bold text-white hover:text-[#231F20] transition duration-700` : `text-5xl text-hmpgBauk  lg:text-9xl uppercase font bold text-white hover:text-[#231F20] transition duration-700`}
                       /*
                       className={classNames(
                         item.current ? 'bg-gray-900 text-stone-950' : 'text-stone-950 hover:bg-gray-700 hover:text-white',
@@ -92,15 +92,15 @@ export default function Nav() {
                   <div className='mt-auto'>
                     <div className='flex flex-col-reverse lg:flex-row'>
                       <div className={showModal ? ` fadeInUp-animation-slower flex flex-col ml-2 lg:ml-20 mr-5` : `flex flex-col ml-2 lg:ml-20 mr-5`}>
-                        <div className='group text-lg lg:text-xl text-[#231F20] transition duration-300 '><a className=' flex flex-row' href='/'>INSTAGRAM  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
-                        <div className='group text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='/'>BEHANCE  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
-                        <div className='group text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='/'>LINKEDIN  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
+                        <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300 '><a className=' flex flex-row' href='/'>INSTAGRAM  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
+                        <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='/'>BEHANCE  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
+                        <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='/'>LINKEDIN  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
                       </div>
                       <div className={showModal ? `fadeInUp-animation-slower flex flex-col mt-auto ml-2 mb-4  lg:ml-10` : `flex flex-col mt-auto ml-2 mb-4  lg:ml-10`}>
-                        <a href="mailto:valbuiofficial@gmail.com" className="font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">
+                        <a href="mailto:valbuiofficial@gmail.com" className="text-hmpgBauk font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">
                           valbuiofficial@gmail.com
                         </a>
-                          <p className="font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">+1 (480) 229 3403</p>
+                          <p className=" text-hmpgBauk font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">+1 (480) 229 3403</p>
                       </div>
                   </div>
                   </div>
