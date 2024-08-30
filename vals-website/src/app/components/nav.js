@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
-import { Disclosure } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import React, { useState } from 'react';
+import { Bars3Icon, XMarkIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
@@ -14,26 +14,43 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+
 export default function Nav() {
+  const [showModal, setShowModal] = useState(false);
   return (
-    <Disclosure as="nav">
-      {({ open }) => (
+    <>
+      <div className="flex items-start justify-between p-8">
+                  
+                  <Link href="/">
+                  <div className="flex flex-shrink-0 items-center">
+                    <img
+                      className="block h-16 lg:h-18 lg:hidden"
+                      src="/assets/signature-C.png"
+                      alt="Your Company"
+                    />
+                    <img
+                      className="hidden h-14 lg:h-20 lg:block"
+                      src="/assets/signature-C.png"
+                      alt="Your Company"
+                    />
+                  </div>
+  
+                </Link>
+    <div className='cursor-pointer' onClick={() => setShowModal(true)}><Bars3Icon className="block h-20 w-20" aria-hidden="true" /></div>
+    
+                  </div>
+
         <>
-          <div className="max-w-7xl px-2 lg:py-8 sm:px-6 lg:px-8">
-            <div className="relative flex h-20 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                  <span className="sr-only">Open main menu</span>
-                  {open ? (
-                    <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-                  ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-                  )}
-                </Disclosure.Button>
-              </div>
-              <div className="flex flex-1 items-center justify-center sm:justify-start">
-              <Link href="/">
+          <div
+            className={showModal ? `menufadeUp-animation h-screen overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none` : 'hidden'}
+          >
+            <div className="relative w-screen h-screen">
+              {/*content*/}
+              <div className="shadow-lg relative flex flex-col w-full h-full bg-[#6272B6]">
+                {/*header*/}
+                <div className="flex items-start justify-between p-8">
+                  
+                <Link href="/">
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-16 lg:h-18 lg:hidden"
@@ -48,45 +65,67 @@ export default function Nav() {
                 </div>
 
               </Link>
-                <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
-                    {navigation.map((item) => (
+              <div className='cursor-pointer' onClick={() => setShowModal(false)} >
+
+              <XMarkIcon className="block h-20 w-20 cursor-pointer" aria-hidden="true" />
+              </div>
+                </div>
+                {/*body*/}
+                <div className="relative p-6 h-screen flex flex-col items-stretch">
+                  <div className='ml-auto mr-[5%]'>
+                    <div className='flex flex-col text-right'>
+                      
+                {navigation.map((item) => (
                       <Link key={item.name} href={`${item.href}`}
-                      className='group text-sky-600 transition duration-300'
+                      className={showModal ? `fadeInUp-animation-slower text-5xl text-hmpgBauk lg:text-9xl uppercase font bold text-white hover:text-[#231F20] transition duration-700` : `text-5xl text-hmpgBauk  lg:text-9xl uppercase font bold text-white hover:text-[#231F20] transition duration-700`}
                       /*
                       className={classNames(
                         item.current ? 'bg-gray-900 text-stone-950' : 'text-stone-950 hover:bg-gray-700 hover:text-white',
                         'rounded-md px-3 py-2 text-lg font-medium'
                       )}*/
                       aria-current={item.current ? 'page' : undefined}
-                      >{item.name}<span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-600"></span></Link>
+                      >{item.name}</Link>
                     ))}
+                    </div>
+
+                  </div>
+                  <div className='mt-auto'>
+                    <div className='flex flex-col-reverse lg:flex-row'>
+                      <div className={showModal ? ` md:flex-row lg:flex-col fadeInUp-animation-slower flex flex-col ml-2 lg:ml-20 mr-5` : `flex flex-col ml-2 lg:ml-20 mr-5`}>
+                        <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300 '><a className=' flex flex-row' href='https://www.instagram.com/valbuiofficial/'>INSTAGRAM  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
+                        <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='https://www.behance.net/ValBuiOfficial'>BEHANCE  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
+                        <div className='group text-hmpgBauk text-lg lg:text-xl text-[#231F20] transition duration-300'><a className=' flex flex-row' href='https://www.linkedin.com/in/val-bui/'>LINKEDIN  <ChevronRightIcon className="h-6 w-6" aria-hidden="true" /></a><span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#231F20]"></span></div>
+                      </div>
+                      <div className={showModal ? `fadeInUp-animation-slower flex flex-col mt-auto ml-2 mb-4  lg:ml-10` : `flex flex-col mt-auto ml-2 mb-4  lg:ml-10`}>
+                        <a href="mailto:valbuiofficial@gmail.com" className="text-hmpgBauk font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">
+                          valbuiofficial@gmail.com
+                        </a>
+                          <p className=" text-hmpgBauk font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">+1 (480) 229 3403</p>
+                      </div>
+                  </div>
                   </div>
                 </div>
+                {/*footer
+                <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                  <button
+                    className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="button"
+                    onClick={() => setShowModal(false)}
+                  >
+                    Close
+                  </button>
+                  <button
+                    className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="button"
+                    onClick={() => setShowModal(false)}
+                  >
+                    Save Changes
+                  </button>
+                </div>*/}
               </div>
             </div>
           </div>
-
-          <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => (
-                <Disclosure.Button
-                  key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current ? 'bg-gray-900 text-black' : 'text-sky-600 hover:bg-gray-700 hover:text-gray-300',
-                    'block rounded-md px-3 py-2 text-base font-medium'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
-                >
-                  {item.name}
-                </Disclosure.Button>
-              ))}
-            </div>
-          </Disclosure.Panel>
         </>
-      )}
-    </Disclosure>
+    </>
   )
 }

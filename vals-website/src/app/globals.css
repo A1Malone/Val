@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.modal {
+  transition: opacity 0.25s ease;
+  }
+  body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+  }
+  .opacity-95 {opacity: .95;}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -20,10 +29,64 @@
   font-family: Bahn;
   src: url('../../public/Bahnschrift\ Regular.ttf');
 }
+@font-face {
+  font-family: hmpgBauk;
+  src: url('../../public/HomepagebaukastenBold.ttf');
+}
+
+.text-hmpgBauk {
+  font-family:hmpgBauk !important;
+
+}
+
+@font-face {
+  font-family: georgia;
+  src: url('../../public/georgia.ttf');
+}
+
+.text-georgia {
+  font-family:georgia !important;
+
+}
+
+@keyframes menufadedown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.menufadeUp-animation {
+  animation: 1.5s menufadedown;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1.5s fadeInUp;
+}
+
+.fadeInUp-animation-slow {
+  animation: 2.3s fadeInUp;
+}
+.fadeInUp-animation-slower {
+  animation: 2.8s fadeInUp;
+}
 
 
 body {
-  background-color:  #e5e5e5;
+  background-color:  #E4E4E4;
 color: black;
 scroll-behavior: smooth;
 font-family: Bahn !important;
