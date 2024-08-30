@@ -42,7 +42,7 @@ export default function Nav() {
 
         <>
           <div
-            className={showModal ? `menufadeUp-animation h-screen justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none` : 'hidden'}
+            className={showModal ? `menufadeUp-animation h-screen overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none` : 'hidden'}
           >
             <div className="relative w-screen h-screen">
               {/*content*/}

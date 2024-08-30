@@ -26,7 +26,7 @@ export default function Home() {
           <Nav/>
         </div>
     </section>
-    <section className="h-96">
+    <section className="h-96 flex justify-content-center">
 
       <p className="text-left w-[25%] text-4xl">
       Val Bui is a multidisciplinary Graphic Designer & Photographer. Born and raised in New Jersey,
