@@ -15,9 +15,9 @@ export default function Home() {
       <div className="flex items-end h-screen absolute">
         <div className="mb-10 ml-5 lg:mb-20 lg:ml-40">
           <div className="flex flex-row text-xl">
-            <div className="fadeInUp-animation-slow"><p className="fadeInUp-animation text-hmpgBauk">Graphic Design</p></div>
+            <div className="fadeInUp-animation-slow"><p className="text-hmpgBauk">Graphic Design</p></div>
             <div className="mx-2"> | </div>
-            <div className="fadeInUp-animation-slow"><p className="fadeInUp-animation text-hmpgBauk">Photography</p></div>
+            <div className="fadeInUp-animation-slow"><p className="text-hmpgBauk">Photography</p></div>
             </div>
           </div>
         </div>
