@@ -44,7 +44,7 @@ export default function Nav() {
           <div
             className={showModal ? `menufadeUp-animation h-screen overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none` : 'hidden'}
           >
-            <div className="relative w-screen h-screen">
+            <div className="relative w-full h-screen">
               {/*content*/}
               <div className="shadow-lg relative flex flex-col w-full h-full bg-[#6272B6]">
                 {/*header*/}
@@ -71,7 +71,7 @@ export default function Nav() {
               </div>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 h-screen flex flex-col items-stretch">
+                <div className="relative p-6 h-full flex flex-col items-stretch">
                   <div className='ml-auto mr-[5%]'>
                     <div className='flex flex-col text-right'>
                       
