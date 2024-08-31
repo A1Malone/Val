@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <section className="h-screen">
-      <div className="flex items-center h-screen w-screen absolute">
+      <div className="flex items-center h-screen w-full absolute">
       <h1 className="text-7xl font-bold mx-auto lg:text-9xl fadeInUp-animation text-hmpgBauk">VAL BUI</h1>
       </div>
       <div className="flex items-end h-screen absolute">
