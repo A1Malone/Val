@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex items-center h-screen w-full absolute">
       <h1 className="text-7xl font-bold mx-auto lg:text-[11rem] fadeInUp-animation text-hmpgBauk">VAL BUI</h1>
       </div>
-      <div className="flex items-end h-screen absolute">
+      <div className="flex items-end h-full absolute">
         <div className="mb-10 ml-5 lg:mb-20 lg:ml-40">
           <div className="flex flex-row text-xl">
             <div ><p className="text-hmpgBauk">Graphic Design</p></div>
