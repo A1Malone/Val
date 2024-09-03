@@ -14,7 +14,7 @@ export default function Home() {
     </div>
     <section className="h-screen">
       <div className="flex items-center h-screen w-full absolute">
-      <h1 className="text-7xl font-bold mx-auto lg:text-[18rem] fadeInUp-animation text-hmpgBauk">VAL BUI</h1>
+      <h1 className="text-7xl font-bold mx-auto md:text-9xl lg:text-[18rem] fadeInUp-animation text-hmpgBauk">VAL BUI</h1>
       </div>
       <div className="flex items-end h-full absolute">
         <div className="mb-10 ml-5 lg:mb-20 lg:ml-40">
