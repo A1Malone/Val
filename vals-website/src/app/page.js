@@ -1,7 +1,9 @@
+"use client"
 import Nav from "./components/nav";
 import Footer from "./components/footer"
 import Grid from "./components/grid";
 import { projects } from "./constant";
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 //import VaraText from "./components/VaraText";
 const mainImg = "/assets/Portfolio_and_Website_Cover.png";
 
@@ -11,7 +13,16 @@ export default function Home() {
     <>
     <section className="h-screen">
       <div className="flex items-center h-screen w-full absolute">
-      <h1 className="text-7xl font-bold mx-auto md:text-9xl lg:text-[18rem] fadeInUp-animation text-hmpgBauk">VAL BUI</h1>
+        <div className="mx-auto">
+      <ParallaxProvider>
+        <Parallax speed={-15}>
+      <h1 className="text-7xl font-bold md:text-9xl lg:text-[18rem] fadeInUp-animation text-hmpgBauk">VAL BUI</h1>
+      
+      </Parallax>
+
+      </ ParallaxProvider>
+
+        </div>
       </div>
       <div className="flex items-end h-full absolute">
         <div className="mb-10 ml-5 lg:mb-20 lg:ml-40">
