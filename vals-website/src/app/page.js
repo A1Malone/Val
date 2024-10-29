@@ -2,6 +2,7 @@ import Nav from "./components/nav";
 import Footer from "./components/footer"
 import Grid from "./components/grid";
 import { projects } from "./constant";
+//import VaraText from "./components/VaraText";
 const mainImg = "/assets/Portfolio_and_Website_Cover.png";
 
 
@@ -35,6 +36,8 @@ export default function Home() {
         exceeding expectations. 
       </p>
       </div>
+
+      {/*}<VaraText text="toto" />*/}
 
     </section>
     
