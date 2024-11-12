@@ -1,24 +1,23 @@
 'use client';
+import React, { useEffect } from 'react';
 import  Vara  from "vara"
 
 
-export default function VaraText(props) {
-  var vara = Vara(
-    "#vara-container",
-    "https://raw.githubusercontent.com/akzhy/Vara/master/fonts/Satisfy/SatisfySL.json",
-    [
-      {
-        text: props.text,
-        fontSize: 40,
-        strokeWidth: 0.7,
-      },
-    ]
-  ) 
-  vara()
-  return (
-    <>
-    <div id="vara-container" className="z-[20]">props.text</div>
-  
-    </>
-  );
+
+export function VaraText({ text }) {
+  useEffect(() => {
+    var vara = new Vara(
+      "#vara-container",
+      "https://raw.githubusercontent.com/akzhy/Vara/master/fonts/Pacifico/PacificoSLO.json",
+      [
+        {
+          text: text,
+          fontSize: 60,
+          strokeWidth: 1.3,
+        }
+      ]
+    )
+  }, [])
+
+  return <div id="vara-container" className="z-[20] w-[40rem]"></div>
 }

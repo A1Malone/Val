@@ -4,7 +4,10 @@ import Footer from "./components/footer"
 import Grid from "./components/grid";
 import { projects } from "./constant";
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-//import VaraText from "./components/VaraText";
+import {VaraText} from "./components/VaraText";
+import {VaraTextt} from "./components/VaraText1";
+import {VaraTexttt} from "./components/VaraText2";
+import {VaraTextttt} from "./components/VaraText3";
 const mainImg = "/assets/Portfolio_and_Website_Cover.png";
 
 
@@ -38,18 +41,29 @@ export default function Home() {
           <Nav/>
         </div>
     </section>
-    <section className="h-[30rem] lg:h-[50rem] flex justify-content-center">
-      <div className="mx-auto my-auto w-4/5">
+    <section className="h-full lg:h-[30rem] lg:h-[50rem] flex justify-content-center">
+    {/*<div className="mx-auto my-auto w-4/5">*/}
+     <div className="mx-auto my-auto h-full w-4/5 flex flex-col lg:flex-row items-center">
         
       <p className="text-left text-georgia w-[100%] text-4xl lg:w-[36%] lg:text-4xl">
         Val Bui is a multidisciplinary Graphic Designer & Photographer. Born and raised in New Jersey,
         USA, she is committed to
         exceeding expectations. 
       </p>
+      <video
+              autoPlay
+              muted
+              playsInline
+              className=" md:w-1/2 lg:ml-64 w-full lg:w-4/12"
+            >
+              <source
+                src={`/assets/writing.mp4`}
+                type="video/mp4"
+              />
+              Your browser does not support the video tag.
+            </video>
+
       </div>
-
-      {/*}<VaraText text="toto" />*/}
-
     </section>
     
     <hr class=" mx-auto w-4/5 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
