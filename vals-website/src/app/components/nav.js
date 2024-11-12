@@ -36,7 +36,10 @@ export default function Nav() {
                   </div>
   
                 </Link>
-    <div className='cursor-pointer' onClick={() => setShowModal(true)}><Bars3Icon className="block h-20 w-20" aria-hidden="true" /></div>
+                <div className='relative'>
+                  
+    <div className='cursor-pointer fixed right-0 pr-8 z-20' onClick={() => setShowModal(true)}><Bars3Icon className="block h-20 w-20" aria-hidden="true" /></div>
+                </div>
     
                   </div>
 
