@@ -54,7 +54,7 @@ export default function Home() {
               autoPlay
               muted
               playsInline
-              className=" md:w-1/2 lg:ml-64 w-full lg:w-4/12"
+              className=" mt-1 lgmt-0 md:w-1/2 lg:ml-64 w-full lg:w-4/12"
             >
               <source
                 src={`/assets/writing.mp4`}
