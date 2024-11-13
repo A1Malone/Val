@@ -27,14 +27,17 @@ export default function Home() {
 
         </div>
       </div>
-      <div className="flex items-end h-full absolute">
-        <div className="mb-10 ml-5 lg:mb-20 lg:ml-40">
+      <div className="flex items-end h-full w-full absolute">
+        <div className="mx-auto w-4/5">
+        <div className="mb-10 lg:mb-20">
           <div className="flex flex-row text-xl">
             <div ><p className="text-hmpgBauk">Graphic Design</p></div>
             <div className="mx-2"> | </div>
             <div ><p className="text-hmpgBauk">Photography</p></div>
             </div>
           </div>
+          
+        </div>
         </div>
         
         <div className="absolute inset-x-0" >
