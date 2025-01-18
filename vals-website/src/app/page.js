@@ -4,11 +4,9 @@ import Footer from "./components/footer"
 import Grid from "./components/grid";
 import { projects } from "./constant";
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-import {VaraText} from "./components/VaraText";
-import {VaraTextt} from "./components/VaraText1";
-import {VaraTexttt} from "./components/VaraText2";
-import {VaraTextttt} from "./components/VaraText3";
 const mainImg = "/assets/Portfolio_and_Website_Cover.png";
+import HTMLFlipBook from 'react-pageflip';
+
 
 
 export default function Home() {
@@ -68,6 +66,13 @@ export default function Home() {
 
       </div>
     </section>
+
+    <HTMLFlipBook width={300} height={500}>
+            <div className="demoPage">Page 1</div>
+            <div className="demoPage">Page 2</div>
+            <div className="demoPage">Page 3</div>
+            <div className="demoPage">Page 4</div>
+        </HTMLFlipBook>
     
     <hr class=" mx-auto w-4/5 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
     <h2 className="uppercase text-bold text-hmpgBauk my-[20%] lg:my-[10%] text-6xl lg:text-8xl text-center">Projects</h2>
