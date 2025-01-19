@@ -170,6 +170,7 @@ export const projects = [
     truename: "125/100 MFS PCD ANNIVERSARY",
     name: "125-100 MFS PCD ANNIVERSARY",
     link: "125-100-mfs-pcd-anniversary",
+    book: true,
     description: "This logo was designed to commemorate the 100th and 125th anniversaries of Miss Fine’s School and Princeton Country Day. The schools merged to form what is now called Princeton Day School.",
     left: "imagine-the-possinilities-pds",
     right: "njsiaa-state-chapions-tee"

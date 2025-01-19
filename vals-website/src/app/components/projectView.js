@@ -1,3 +1,5 @@
+import Book from "./book" 
+
 export default function Project(props) {
   const imageList = props.imgList;
   const custImgClass = props.customimgclass;
@@ -24,6 +26,14 @@ export default function Project(props) {
                     src={`/assets/portfolio/${props.projectN}/${img.img}`} 
             />
               ) ) : (
+                console.log('nothing to see here')
+              )
+            }
+
+            {
+              props.book ? (
+                <Book />
+              ) : (
                 console.log('nothing to see here')
               )
             }
