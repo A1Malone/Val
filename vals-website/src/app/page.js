@@ -6,6 +6,7 @@ import { projects } from "./constant";
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 const mainImg = "/assets/Portfolio_and_Website_Cover.png";
 import HTMLFlipBook from 'react-pageflip';
+import {pages} from "../app/constant"
 
 
 
@@ -66,13 +67,16 @@ export default function Home() {
 
       </div>
     </section>
-
-    <HTMLFlipBook width={300} height={500}>
-            <div className="demoPage">Page 1</div>
-            <div className="demoPage">Page 2</div>
-            <div className="demoPage">Page 3</div>
-            <div className="demoPage">Page 4</div>
+      <div className="flex justify-center">
+    <HTMLFlipBook width={400}height={600} size="fixed">
+       {
+                pages.map((page, i) => (
+                  <div className="demoPage"> <img className="galleryImg" src={`/assets/portfolio/125-100 MFS PCD ANNIVERSARY/journal images/new/${page.img}`}  key={i}/> </div>   
+                ))
+              }
         </HTMLFlipBook>
+
+      </div>
     
     <hr class=" mx-auto w-4/5 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
     <h2 className="uppercase text-bold text-hmpgBauk my-[20%] lg:my-[10%] text-6xl lg:text-8xl text-center">Projects</h2>

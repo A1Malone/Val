@@ -294,6 +294,359 @@ const notUsed = [
   },
 ];
 
+export const pages = [
+  {
+    img: "1-1.png"
+  },
+  
+  {
+    img: "1-2.png"
+  },
+  {
+    img: "2-1.png"
+  },
+  
+  {
+    img: "2-2.png"
+  },
+  {
+    img: "3-1.png"
+  },
+  
+  {
+    img: "3-2.png"
+  },
+  {
+    img: "4-1.png"
+  },
+  
+  {
+    img: "4-2.png"
+  },
+  {
+    img: "5-1.png"
+  },
+  
+  {
+    img: "5-2.png"
+  },
+  {
+    img: "6-1.png"
+  },
+  
+  {
+    img: "6-2.png"
+  },
+  {
+    img: "7-1.png"
+  },
+  
+  {
+    img: "7-2.png"
+  },
+  {
+    img: "8-1.png"
+  },
+  
+  {
+    img: "8-2.png"
+  },
+  {
+    img: "9-1.png"
+  },
+  
+  {
+    img: "9-2.png"
+  },
+  {
+    img: "10-1.png"
+  },
+  
+  {
+    img: "10-2.png"
+  },
+  {
+    img: "11-1.png"
+  },
+  
+  {
+    img: "11-2.png"
+  },
+  {
+    img: "12-1.png"
+  },
+  
+  {
+    img: "12-2.png"
+  },
+  {
+    img: "13-1.png"
+  },
+  
+  {
+    img: "13-2.png"
+  },
+  {
+    img: "14-1.png"
+  },
+  
+  {
+    img: "14-2.png"
+  },
+  {
+    img: "15-1.png"
+  },
+  
+  {
+    img: "15-2.png"
+  },
+  {
+    img: "16-1.png"
+  },
+  
+  {
+    img: "16-2.png"
+  },
+  {
+    img: "17-1.png"
+  },
+  
+  {
+    img: "17-2.png"
+  },
+  {
+    img: "18-1.png"
+  },
+  
+  {
+    img: "18-2.png"
+  },
+  {
+    img: "19-1.png"
+  },
+  
+  {
+    img: "19-2.png"
+  },
+  {
+    img: "20-1.png"
+  },
+  
+  {
+    img: "20-2.png"
+  },
+  {
+    img: "21-1.png"
+  },
+  
+  {
+    img: "21-2.png"
+  },
+  {
+    img: "22-1.png"
+  },
+  
+  {
+    img: "22-2.png"
+  },
+  {
+    img: "23-1.png"
+  },
+  
+  {
+    img: "23-2.png"
+  },
+  {
+    img: "24-1.png"
+  },
+  
+  {
+    img: "24-2.png"
+  },
+  {
+    img: "25-1.png"
+  },
+  
+  {
+    img: "25-2.png"
+  },
+  {
+    img: "26-1.png"
+  },
+  
+  {
+    img: "26-2.png"
+  },
+  {
+    img: "27-1.png"
+  },
+  
+  {
+    img: "27-2.png"
+  },
+  {
+    img: "28-1.png"
+  }, 
+  {
+    img: "28-2.png"
+  },
+  {
+    img: "29-1.png"
+  },
+  {
+    img: "29-2.png"
+  },
+  {
+    img: "30-1.png"
+  },
+  {
+    img: "30-2.png"
+  },
+  {
+    img: "31-1.png"
+  },
+  {
+    img: "31-2.png"
+  },
+  {
+    img: "32-1.png"
+  },
+  {
+    img: "32-2.png"
+  },
+  {
+    img: "33-1.png"
+  },
+  {
+    img: "33-2.png"
+  },
+  {
+    img: "34-1.png"
+  },
+  {
+    img: "34-2.png"
+  },
+  {
+    img: "35-1.png"
+  },
+  {
+    img: "35-2.png"
+  },
+  {
+    img: "36-1.png"
+  },
+  {
+    img: "36-2.png"
+  },
+  {
+    img: "37-1.png"
+  },
+  {
+    img: "37-2.png"
+  },
+  {
+    img: "38-1.png"
+  },
+  {
+    img: "38-2.png"
+  },
+  {
+    img: "39-1.png"
+  },
+  {
+    img: "39-2.png"
+  },
+  {
+    img: "40-1.png"
+  },
+  {
+    img: "40-2.png"
+  },
+  {
+    img: "41-1.png"
+  },
+  {
+    img: "41-2.png"
+  },
+  {
+    img: "42-1.png"
+  },
+  {
+    img: "42-2.png"
+  },
+  {
+    img: "43-1.png"
+  },
+  {
+    img: "43-2.png"
+  },
+  {
+    img: "44-1.png"
+  },
+  {
+    img: "44-2.png"
+  },
+  {
+    img: "45-1.png"
+  },
+  {
+    img: "45-2.png"
+  },
+  {
+    img: "46-1.png"
+  },
+  {
+    img: "46-2.png"
+  },
+  {
+    img: "47-1.png"
+  },
+  {
+    img: "47-2.png"
+  },
+  {
+    img: "48-1.png"
+  },
+  {
+    img: "48-2.png"
+  },
+  {
+    img: "49-1.png"
+  },
+  {
+    img: "49-2.png"
+  },
+  {
+    img: "50-1.png"
+  },
+  {
+    img: "50-2.png"
+  },
+  {
+    img: "51-1.png"
+  },
+  {
+    img: "51-2.png"
+  },
+  {
+    img: "52-1.png"
+  },
+  {
+    img: "52-2.png"
+  },
+  {
+    img: "53-1.png"
+  },
+  {
+    img: "53-2.png"
+  },
+  {
+    img: "54-1.png"
+  },
+  {
+    img: "54-2.png"
+  },
+];
 
 export const gallery = [
   {
