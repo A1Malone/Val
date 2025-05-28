@@ -103,7 +103,7 @@ export default function Nav() {
                         <a href="mailto:valbuiofficial@gmail.com" className="text-hmpgBauk font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">
                           valbuiofficial@gmail.com
                         </a>
-                          <p className=" text-hmpgBauk font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">+1 (480) 229 3403</p>
+                         {/*} <p className=" text-hmpgBauk font-semibold text-[#231F20] text-xl lg:leading-none lg:text-xl">+1 (480) 229 3403</p> */}
                       </div>
                   </div>
                   </div>
