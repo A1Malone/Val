@@ -50,18 +50,25 @@ export default function Home() {
         USA, she is committed to
         exceeding expectations. 
       </p>
-      <video
+      <div className="lg:mt-1 lgmt-0 md:w-1/2 lg:ml-64 mt-10 w-full lg:w-4/12">
+      <img
+        className="mx-auto w-1/2"
+        src="/assets/signature-c.png"
+        alt="LOGO"
+        />
+      </div>
+     {/*} <video
               autoPlay
               muted
               playsInline
-              className=" mt-1 lgmt-0 md:w-1/2 lg:ml-64 w-full lg:w-4/12"
+              className=""
             >
               <source
                 src={`/assets/writing.mp4`}
                 type="video/mp4"
               />
               Your browser does not support the video tag.
-            </video>
+            </video> */}
 
       </div>
     </section>
